@@ -55,5 +55,3 @@ class AllConvNet(nn.Module):
     def forward(self, x):
         return self.layers(x)
 
-    def get_hilbert_rep()
-

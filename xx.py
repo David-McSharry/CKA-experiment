@@ -23,6 +23,11 @@ transform = transforms.Compose([transforms.ToTensor(),
 full_trainset = datasets.MNIST('./data/', download=True, train=True, transform=transform)
 trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=64)
 
+a1_trainset, a2_trainset = torch.utils.data.random_split(full_trainset, [len(full_trainset)//2, len(full_trainset)//2])
+
+a1_trainloader = torch.utils.data.DataLoader(a1_trainset, batch_size=64)
+a2_trainloader = torch.utils.data.DataLoader(a2_trainset, batch_size=64)
+
 # Download and load the full test images
 full_testset = datasets.MNIST('./data/', download=True, train=False, transform=transform)
 testloader = torch.utils.data.DataLoader(full_testset, batch_size=64)
@@ -78,6 +83,7 @@ print(hilbert_vectors.shape)
 
 import torch.optim as optim
 
+epochs = 5
 # Loss function
 criterion = torch.nn.MSELoss()
 
@@ -89,15 +95,13 @@ optimizer = optim.Adam(model.parameters(), lr = 0.001)
 # Send model to device
 model.to(device)
 
-epochs = 5
-
 for epoch in range(epochs):
 
     # Training
     model.train()
     total_train_loss = 0
 
-    for batch in trainloader:
+    for batch in a1_trainloader:
         images, _ = batch
         images = images.to(device)
 
@@ -112,7 +116,7 @@ for epoch in range(epochs):
 
         total_train_loss += loss.item()
 
-    avg_train_loss = total_train_loss / len(trainloader)
+    avg_train_loss = total_train_loss / len(a1_trainloader)
 
     # Validation
     model.eval()
@@ -132,10 +136,6 @@ for epoch in range(epochs):
     avg_val_loss = total_val_loss / len(testloader)
 
     print(f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}")
-
-
-
-
 
 
 # %%
@@ -165,6 +165,7 @@ hilbert_vectors_model_1 = model.get_Hilbert_rep(trainloader)
 # import CKA
 from metrics.CKA import CKA_function
 model2 = ConvAutoencoder(config)
+import torch.onnx
 # train another model with the same config and the same loop as above
 
 criterion = torch.nn.MSELoss()
@@ -187,7 +188,7 @@ for epoch in range(epochs):
         model2.train()
         total_train_loss = 0
 
-        for batch in trainloader:
+        for batch in a2_trainloader:
             images, _ = batch
             images = images.to(device)
 
@@ -202,7 +203,7 @@ for epoch in range(epochs):
 
             total_train_loss += loss.item()
 
-        avg_train_loss = total_train_loss / len(trainloader)
+        avg_train_loss = total_train_loss / len(a2_trainloader)
 
         # Validation
         model2.eval()
@@ -236,6 +237,9 @@ for epoch in range(epochs):
         # get hilbert vectors of the training set
 
         print(f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}")
+
+torch.onnx.export(model2, image, f"models/{config['run_id']}.onnx", verbose=True)
+wandb.save(f"models/{config['run_id']}.onnx")
 
 # kill wandb process
 wandb.finish()
