@@ -1,0 +1,2004 @@
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-0.257, 0.611] μ=0.072 σ=0.265
+tensor 0.017
+Epoch: 1, Training Loss: 0.5347, Validation Loss: 0.5064
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-0.841, 1.403] μ=0.037 σ=0.733
+tensor 0.010
+Epoch: 2, Training Loss: 0.4984, Validation Loss: 0.4554
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.895, 2.710] μ=0.037 σ=1.667
+tensor 0.006
+Epoch: 3, Training Loss: 0.4542, Validation Loss: 0.4171
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.555, 2.199] μ=0.071 σ=1.400
+tensor 0.016
+Epoch: 4, Training Loss: 0.4259, Validation Loss: 0.3883
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.268, 1.683] μ=0.099 σ=1.127
+tensor 0.008
+Epoch: 5, Training Loss: 0.4043, Validation Loss: 0.3693
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.544, 1.859] μ=0.133 σ=1.360
+tensor 0.006
+Epoch: 6, Training Loss: 0.3820, Validation Loss: 0.3503
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.682, 1.980] μ=0.107 σ=1.417
+tensor 0.005
+Epoch: 7, Training Loss: 0.3659, Validation Loss: 0.3390
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.563, 1.909] μ=0.109 σ=1.256
+tensor 0.009
+Epoch: 8, Training Loss: 0.3465, Validation Loss: 0.3273
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.791, 2.223] μ=0.186 σ=1.435
+tensor 0.001
+Epoch: 9, Training Loss: 0.3448, Validation Loss: 0.3019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.835, 2.300] μ=0.196 σ=1.457
+tensor 0.003
+Epoch: 10, Training Loss: 0.3351, Validation Loss: 0.3158
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-1.868, 2.384] μ=0.187 σ=1.455
+tensor 0.045
+Epoch: 11, Training Loss: 0.3108, Validation Loss: 0.3004
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.112, 2.682] μ=0.222 σ=1.635
+tensor 0.017
+Epoch: 12, Training Loss: 0.3079, Validation Loss: 0.2868
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.108, 2.646] μ=0.226 σ=1.601
+tensor 0.006
+Epoch: 13, Training Loss: 0.3126, Validation Loss: 0.2869
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.224, 2.779] μ=0.220 σ=1.703
+tensor 0.006
+Epoch: 14, Training Loss: 0.2855, Validation Loss: 0.2865
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.157, 2.824] μ=0.240 σ=1.708
+tensor 0.007
+Epoch: 15, Training Loss: 0.2869, Validation Loss: 0.2769
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.217, 2.964] μ=0.270 σ=1.794
+tensor 0.004
+Epoch: 16, Training Loss: 0.2870, Validation Loss: 0.2731
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.307, 3.012] μ=0.267 σ=1.832
+tensor 0.005
+Epoch: 17, Training Loss: 0.2850, Validation Loss: 0.2716
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.372, 3.096] μ=0.271 σ=1.905
+tensor 0.020
+Epoch: 18, Training Loss: 0.2828, Validation Loss: 0.2608
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.507, 3.187] μ=0.291 σ=1.962
+tensor 0.022
+Epoch: 19, Training Loss: 0.2660, Validation Loss: 0.2689
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.613, 3.377] μ=0.319 σ=1.981
+tensor 0.011
+Epoch: 20, Training Loss: 0.2723, Validation Loss: 0.2556
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.661, 3.456] μ=0.309 σ=2.004
+tensor 0.007
+Epoch: 21, Training Loss: 0.2590, Validation Loss: 0.2549
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.717, 3.591] μ=0.328 σ=2.014
+tensor 0.008
+Epoch: 22, Training Loss: 0.2646, Validation Loss: 0.2612
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.862, 3.726] μ=0.342 σ=2.042
+tensor 0.004
+Epoch: 23, Training Loss: 0.2617, Validation Loss: 0.2551
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.842, 3.868] μ=0.350 σ=2.053
+tensor 0.015
+Epoch: 24, Training Loss: 0.2603, Validation Loss: 0.2648
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-2.920, 4.044] μ=0.377 σ=2.083
+tensor 0.012
+Epoch: 25, Training Loss: 0.2626, Validation Loss: 0.2479
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.039, 4.064] μ=0.362 σ=2.090
+tensor 0.007
+Epoch: 26, Training Loss: 0.2574, Validation Loss: 0.2490
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.137, 4.273] μ=0.409 σ=2.145
+tensor 0.009
+Epoch: 27, Training Loss: 0.2514, Validation Loss: 0.2521
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.105, 4.348] μ=0.439 σ=2.117
+tensor 0.006
+Epoch: 28, Training Loss: 0.2410, Validation Loss: 0.2442
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.333, 4.294] μ=0.383 σ=2.137
+tensor 0.024
+Epoch: 29, Training Loss: 0.2453, Validation Loss: 0.2598
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.341, 4.557] μ=0.472 σ=2.210
+tensor 0.008
+Epoch: 30, Training Loss: 0.2381, Validation Loss: 0.2445
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.507, 4.479] μ=0.434 σ=2.227
+tensor 0.018
+Epoch: 31, Training Loss: 0.2418, Validation Loss: 0.2457
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.557, 4.611] μ=0.434 σ=2.243
+tensor 0.023
+Epoch: 32, Training Loss: 0.2459, Validation Loss: 0.2416
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.650, 4.799] μ=0.498 σ=2.288
+tensor 0.002
+Epoch: 33, Training Loss: 0.2460, Validation Loss: 0.2435
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.733, 4.969] μ=0.509 σ=2.362
+tensor 0.013
+Epoch: 34, Training Loss: 0.2428, Validation Loss: 0.2415
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.823, 5.015] μ=0.525 σ=2.348
+tensor 0.010
+Epoch: 35, Training Loss: 0.2341, Validation Loss: 0.2312
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-3.953, 5.027] μ=0.531 σ=2.360
+tensor 0.008
+Epoch: 36, Training Loss: 0.2406, Validation Loss: 0.2383
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.189, 5.095] μ=0.518 σ=2.452
+tensor 0.021
+Epoch: 37, Training Loss: 0.2197, Validation Loss: 0.2369
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.037, 5.230] μ=0.626 σ=2.404
+tensor 0.019
+Epoch: 38, Training Loss: 0.2326, Validation Loss: 0.2329
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.404, 5.058] μ=0.503 σ=2.471
+tensor 0.014
+Epoch: 39, Training Loss: 0.2327, Validation Loss: 0.2314
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.330, 5.361] μ=0.595 σ=2.490
+tensor 0.013
+Epoch: 40, Training Loss: 0.2264, Validation Loss: 0.2351
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.442, 5.318] μ=0.570 σ=2.535
+tensor 0.012
+Epoch: 41, Training Loss: 0.2205, Validation Loss: 0.2329
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.433, 5.504] μ=0.563 σ=2.539
+tensor 0.006
+Epoch: 42, Training Loss: 0.2246, Validation Loss: 0.2280
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.534, 5.348] μ=0.560 σ=2.517
+tensor 0.015
+Epoch: 43, Training Loss: 0.2197, Validation Loss: 0.2301
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.511, 5.608] μ=0.590 σ=2.602
+tensor 0.017
+Epoch: 44, Training Loss: 0.2170, Validation Loss: 0.2238
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.640, 5.607] μ=0.605 σ=2.634
+tensor 0.017
+Epoch: 45, Training Loss: 0.2105, Validation Loss: 0.2188
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.582, 5.540] μ=0.563 σ=2.574
+tensor 0.010
+Epoch: 46, Training Loss: 0.2145, Validation Loss: 0.2203
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.511, 5.735] μ=0.668 σ=2.586
+tensor 0.004
+Epoch: 47, Training Loss: 0.2136, Validation Loss: 0.2228
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.834, 5.549] μ=0.520 σ=2.685
+tensor 0.008
+Epoch: 48, Training Loss: 0.2091, Validation Loss: 0.2159
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.632, 5.735] μ=0.618 σ=2.609
+tensor 0.007
+Epoch: 49, Training Loss: 0.2213, Validation Loss: 0.2173
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.782, 5.884] μ=0.671 σ=2.782
+tensor 0.015
+Epoch: 50, Training Loss: 0.2083, Validation Loss: 0.2220
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.866, 5.817] μ=0.553 σ=2.703
+tensor 0.008
+Epoch: 51, Training Loss: 0.2047, Validation Loss: 0.2176
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.682, 5.866] μ=0.694 σ=2.715
+tensor 0.016
+Epoch: 52, Training Loss: 0.2059, Validation Loss: 0.2182
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.005, 5.956] μ=0.552 σ=2.807
+tensor 0.017
+Epoch: 53, Training Loss: 0.2071, Validation Loss: 0.2240
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.800, 5.820] μ=0.621 σ=2.732
+tensor 0.018
+Epoch: 54, Training Loss: 0.2037, Validation Loss: 0.2078
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.025, 6.207] μ=0.639 σ=2.898
+tensor 0.017
+Epoch: 55, Training Loss: 0.1971, Validation Loss: 0.2080
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.793, 6.064] μ=0.642 σ=2.830
+tensor 0.014
+Epoch: 56, Training Loss: 0.2025, Validation Loss: 0.2149
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.127, 6.073] μ=0.631 σ=2.870
+tensor 0.053
+Epoch: 57, Training Loss: 0.1993, Validation Loss: 0.2070
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.888, 6.125] μ=0.605 σ=2.866
+tensor 0.018
+Epoch: 58, Training Loss: 0.1949, Validation Loss: 0.2094
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.121, 6.307] μ=0.652 σ=2.924
+tensor 0.011
+Epoch: 59, Training Loss: 0.2032, Validation Loss: 0.2152
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-4.988, 6.241] μ=0.607 σ=2.902
+tensor 0.005
+Epoch: 60, Training Loss: 0.1920, Validation Loss: 0.2152
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.101, 6.356] μ=0.648 σ=2.912
+tensor 0.033
+Epoch: 61, Training Loss: 0.1950, Validation Loss: 0.2051
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.121, 6.359] μ=0.573 σ=2.947
+tensor 0.005
+Epoch: 62, Training Loss: 0.1969, Validation Loss: 0.2114
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.021, 6.497] μ=0.714 σ=2.974
+tensor 0.010
+Epoch: 63, Training Loss: 0.1900, Validation Loss: 0.2146
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.169, 6.327] μ=0.580 σ=2.955
+tensor 0.011
+Epoch: 64, Training Loss: 0.1961, Validation Loss: 0.2024
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.144, 6.228] μ=0.589 σ=2.937
+tensor 0.011
+Epoch: 65, Training Loss: 0.1899, Validation Loss: 0.2182
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.147, 6.463] μ=0.626 σ=2.983
+tensor 0.034
+Epoch: 66, Training Loss: 0.1909, Validation Loss: 0.2053
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.093, 6.477] μ=0.646 σ=3.023
+tensor 0.008
+Epoch: 67, Training Loss: 0.1855, Validation Loss: 0.2054
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.276, 6.467] μ=0.572 σ=2.988
+tensor 0.023
+Epoch: 68, Training Loss: 0.1814, Validation Loss: 0.2073
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.086, 6.588] μ=0.686 σ=3.005
+tensor 0.023
+Epoch: 69, Training Loss: 0.1907, Validation Loss: 0.2061
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.410, 6.567] μ=0.572 σ=3.087
+tensor 0.014
+Epoch: 70, Training Loss: 0.1847, Validation Loss: 0.2036
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.201, 6.652] μ=0.702 σ=3.060
+tensor 0.014
+Epoch: 71, Training Loss: 0.1978, Validation Loss: 0.2028
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.279, 6.766] μ=0.634 σ=3.127
+tensor 0.006
+Epoch: 72, Training Loss: 0.1873, Validation Loss: 0.2029
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.384, 6.602] μ=0.634 σ=3.046
+tensor 0.010
+Epoch: 73, Training Loss: 0.1859, Validation Loss: 0.2117
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.292, 6.698] μ=0.661 σ=3.102
+tensor 0.018
+Epoch: 74, Training Loss: 0.1911, Validation Loss: 0.2066
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.497, 6.891] μ=0.666 σ=3.180
+tensor 0.007
+Epoch: 75, Training Loss: 0.1820, Validation Loss: 0.2146
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.322, 6.782] μ=0.706 σ=3.086
+tensor 0.005
+Epoch: 76, Training Loss: 0.1887, Validation Loss: 0.2091
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.518, 6.678] μ=0.529 σ=3.139
+tensor 0.014
+Epoch: 77, Training Loss: 0.1818, Validation Loss: 0.1979
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.323, 6.928] μ=0.765 σ=3.191
+tensor 0.016
+Epoch: 78, Training Loss: 0.1823, Validation Loss: 0.2002
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.336, 6.955] μ=0.632 σ=3.216
+tensor 0.009
+Epoch: 79, Training Loss: 0.1777, Validation Loss: 0.2055
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.608, 6.840] μ=0.656 σ=3.187
+tensor 0.013
+Epoch: 80, Training Loss: 0.1828, Validation Loss: 0.2065
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.352, 6.982] μ=0.671 σ=3.234
+tensor 0.006
+Epoch: 81, Training Loss: 0.1772, Validation Loss: 0.2082
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.579, 7.111] μ=0.663 σ=3.263
+tensor 0.016
+Epoch: 82, Training Loss: 0.1902, Validation Loss: 0.2020
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.445, 6.922] μ=0.652 σ=3.225
+tensor 0.012
+Epoch: 83, Training Loss: 0.1717, Validation Loss: 0.2044
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.604, 7.280] μ=0.653 σ=3.313
+tensor 0.014
+Epoch: 84, Training Loss: 0.1756, Validation Loss: 0.1985
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.533, 7.244] μ=0.760 σ=3.330
+tensor 0.008
+Epoch: 85, Training Loss: 0.1750, Validation Loss: 0.2062
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.703, 7.316] μ=0.638 σ=3.345
+tensor 0.009
+Epoch: 86, Training Loss: 0.1825, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.607, 7.051] μ=0.672 σ=3.234
+tensor 0.007
+Epoch: 87, Training Loss: 0.1823, Validation Loss: 0.2008
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.708, 7.554] μ=0.692 σ=3.452
+tensor 0.007
+Epoch: 88, Training Loss: 0.1743, Validation Loss: 0.2003
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.641, 7.411] μ=0.736 σ=3.383
+tensor 0.007
+Epoch: 89, Training Loss: 0.1765, Validation Loss: 0.2055
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.858, 7.394] μ=0.617 σ=3.374
+tensor 0.011
+Epoch: 90, Training Loss: 0.1726, Validation Loss: 0.2107
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.754, 7.516] μ=0.740 σ=3.457
+tensor 0.005
+Epoch: 91, Training Loss: 0.1790, Validation Loss: 0.2122
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.791, 7.608] μ=0.701 σ=3.474
+tensor 0.013
+Epoch: 92, Training Loss: 0.1737, Validation Loss: 0.2039
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-5.849, 7.530] μ=0.712 σ=3.450
+tensor 0.023
+Epoch: 93, Training Loss: 0.1752, Validation Loss: 0.2112
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.058, 7.549] μ=0.636 σ=3.490
+tensor 0.008
+Epoch: 94, Training Loss: 0.1708, Validation Loss: 0.1962
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.055, 7.558] μ=0.714 σ=3.502
+tensor 0.005
+Epoch: 95, Training Loss: 0.1710, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.236, 7.785] μ=0.670 σ=3.582
+tensor 0.009
+Epoch: 96, Training Loss: 0.1887, Validation Loss: 0.2049
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.053, 7.881] μ=0.800 σ=3.567
+tensor 0.011
+Epoch: 97, Training Loss: 0.1670, Validation Loss: 0.2027
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.192, 7.676] μ=0.647 σ=3.502
+tensor 0.013
+Epoch: 98, Training Loss: 0.1700, Validation Loss: 0.1974
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.266, 7.723] μ=0.716 σ=3.580
+tensor 0.009
+Epoch: 99, Training Loss: 0.1749, Validation Loss: 0.1962
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.089, 7.894] μ=0.741 σ=3.586
+tensor 0.007
+Epoch: 100, Training Loss: 0.1737, Validation Loss: 0.1966
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.477, 8.090] μ=0.714 σ=3.676
+tensor 0.017
+Epoch: 101, Training Loss: 0.1719, Validation Loss: 0.1941
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.310, 7.780] μ=0.676 σ=3.556
+tensor 0.005
+Epoch: 102, Training Loss: 0.1778, Validation Loss: 0.2087
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.422, 7.948] μ=0.726 σ=3.665
+tensor 0.017
+Epoch: 103, Training Loss: 0.1691, Validation Loss: 0.2000
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.537, 8.089] μ=0.790 σ=3.734
+tensor 0.029
+Epoch: 104, Training Loss: 0.1637, Validation Loss: 0.2029
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.447, 7.923] μ=0.708 σ=3.596
+tensor 0.018
+Epoch: 105, Training Loss: 0.1677, Validation Loss: 0.1973
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.877, 8.287] μ=0.756 σ=3.839
+tensor 0.014
+Epoch: 106, Training Loss: 0.1584, Validation Loss: 0.2037
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.438, 8.229] μ=0.747 σ=3.741
+tensor 0.008
+Epoch: 107, Training Loss: 0.1648, Validation Loss: 0.2042
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.768, 8.362] μ=0.776 σ=3.833
+tensor 0.022
+Epoch: 108, Training Loss: 0.1680, Validation Loss: 0.2014
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.712, 8.235] μ=0.722 σ=3.768
+tensor 0.015
+Epoch: 109, Training Loss: 0.1679, Validation Loss: 0.2043
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.741, 8.484] μ=0.762 σ=3.870
+tensor 0.006
+Epoch: 110, Training Loss: 0.1627, Validation Loss: 0.2033
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.814, 8.578] μ=0.832 σ=3.926
+tensor 0.033
+Epoch: 111, Training Loss: 0.1630, Validation Loss: 0.1912
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.992, 8.403] μ=0.701 σ=3.873
+tensor 0.016
+Epoch: 112, Training Loss: 0.1623, Validation Loss: 0.1933
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.995, 8.581] μ=0.778 σ=3.917
+tensor 0.015
+Epoch: 113, Training Loss: 0.1624, Validation Loss: 0.2009
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.851, 8.774] μ=0.853 σ=3.971
+tensor 0.008
+Epoch: 114, Training Loss: 0.1650, Validation Loss: 0.2032
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.134, 8.563] μ=0.717 σ=3.947
+tensor 0.009
+Epoch: 115, Training Loss: 0.1685, Validation Loss: 0.2003
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.892, 8.573] μ=0.815 σ=3.897
+tensor 0.009
+Epoch: 116, Training Loss: 0.1673, Validation Loss: 0.1966
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.091, 8.923] μ=0.826 σ=4.045
+tensor 0.010
+Epoch: 117, Training Loss: 0.1632, Validation Loss: 0.2088
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.035, 8.802] μ=0.823 σ=4.015
+tensor 0.008
+Epoch: 118, Training Loss: 0.1571, Validation Loss: 0.2092
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.192, 8.673] μ=0.772 σ=4.006
+tensor 0.006
+Epoch: 119, Training Loss: 0.1568, Validation Loss: 0.1976
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.319, 8.779] μ=0.791 σ=4.066
+tensor 0.011
+Epoch: 120, Training Loss: 0.1555, Validation Loss: 0.1865
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.286, 8.958] μ=0.866 σ=4.128
+tensor 0.009
+Epoch: 121, Training Loss: 0.1601, Validation Loss: 0.1956
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.296, 9.104] μ=0.844 σ=4.168
+tensor 0.012
+Epoch: 122, Training Loss: 0.1549, Validation Loss: 0.1952
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.303, 9.046] μ=0.845 σ=4.208
+tensor 0.009
+Epoch: 123, Training Loss: 0.1639, Validation Loss: 0.1895
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.298, 8.743] μ=0.755 σ=4.069
+tensor 0.037
+Epoch: 124, Training Loss: 0.1546, Validation Loss: 0.1921
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.510, 8.965] μ=0.835 σ=4.153
+tensor 0.010
+Epoch: 125, Training Loss: 0.1580, Validation Loss: 0.1933
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.825, 9.137] μ=0.853 σ=4.262
+tensor 0.016
+Epoch: 126, Training Loss: 0.1559, Validation Loss: 0.2038
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.779, 8.829] μ=0.774 σ=4.114
+tensor 0.041
+Epoch: 127, Training Loss: 0.1599, Validation Loss: 0.1890
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.684, 9.096] μ=0.796 σ=4.240
+tensor 0.004
+Epoch: 128, Training Loss: 0.1512, Validation Loss: 0.1921
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.709, 9.049] μ=0.863 σ=4.216
+tensor 0.013
+Epoch: 129, Training Loss: 0.1518, Validation Loss: 0.1953
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.586, 9.138] μ=0.785 σ=4.246
+tensor 0.004
+Epoch: 130, Training Loss: 0.1610, Validation Loss: 0.1963
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.552, 9.222] μ=0.838 σ=4.258
+tensor 0.012
+Epoch: 131, Training Loss: 0.1602, Validation Loss: 0.1881
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.649, 9.266] μ=0.899 σ=4.259
+tensor 0.009
+Epoch: 132, Training Loss: 0.1553, Validation Loss: 0.1989
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.714, 9.337] μ=0.761 σ=4.336
+tensor 0.019
+Epoch: 133, Training Loss: 0.1598, Validation Loss: 0.1951
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.968, 9.356] μ=0.865 σ=4.309
+tensor 0.009
+Epoch: 134, Training Loss: 0.1537, Validation Loss: 0.2038
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.796, 9.439] μ=0.823 σ=4.355
+tensor 0.011
+Epoch: 135, Training Loss: 0.1566, Validation Loss: 0.1946
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.966, 9.448] μ=0.886 σ=4.395
+tensor 0.012
+Epoch: 136, Training Loss: 0.1529, Validation Loss: 0.1938
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.959, 9.213] μ=0.788 σ=4.306
+tensor 0.008
+Epoch: 137, Training Loss: 0.1602, Validation Loss: 0.1906
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.907, 9.570] μ=0.868 σ=4.483
+tensor 0.016
+Epoch: 138, Training Loss: 0.1576, Validation Loss: 0.2048
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-7.733, 9.305] μ=0.914 σ=4.308
+tensor 0.017
+Epoch: 139, Training Loss: 0.1516, Validation Loss: 0.1888
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.230, 9.519] μ=0.837 σ=4.476
+tensor 0.011
+Epoch: 140, Training Loss: 0.1529, Validation Loss: 0.2077
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.150, 9.536] μ=0.878 σ=4.480
+tensor 0.016
+Epoch: 141, Training Loss: 0.1471, Validation Loss: 0.2008
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.158, 9.627] μ=0.920 σ=4.440
+tensor 0.007
+Epoch: 142, Training Loss: 0.1493, Validation Loss: 0.2055
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.351, 9.683] μ=0.826 σ=4.587
+tensor 0.013
+Epoch: 143, Training Loss: 0.1543, Validation Loss: 0.2128
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.102, 9.520] μ=0.861 σ=4.441
+tensor 0.010
+Epoch: 144, Training Loss: 0.1517, Validation Loss: 0.2000
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.172, 9.879] μ=0.947 σ=4.565
+tensor 0.013
+Epoch: 145, Training Loss: 0.1503, Validation Loss: 0.1893
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.230, 9.433] μ=0.843 σ=4.473
+tensor 0.034
+Epoch: 146, Training Loss: 0.1492, Validation Loss: 0.1942
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.640, 9.666] μ=0.798 σ=4.535
+tensor 0.008
+Epoch: 147, Training Loss: 0.1525, Validation Loss: 0.2069
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.195, 9.970] μ=0.943 σ=4.593
+tensor 0.018
+Epoch: 148, Training Loss: 0.1458, Validation Loss: 0.1886
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.545, 9.854] μ=0.924 σ=4.610
+tensor 0.012
+Epoch: 149, Training Loss: 0.1533, Validation Loss: 0.2031
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.407, 9.955] μ=0.851 σ=4.607
+tensor 0.012
+Epoch: 150, Training Loss: 0.1403, Validation Loss: 0.2050
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.553, 10.146] μ=0.953 σ=4.688
+tensor 0.014
+Epoch: 151, Training Loss: 0.1455, Validation Loss: 0.2029
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.416, 10.043] μ=0.951 σ=4.651
+tensor 0.008
+Epoch: 152, Training Loss: 0.1522, Validation Loss: 0.1956
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.720, 9.840] μ=0.827 σ=4.686
+tensor 0.020
+Epoch: 153, Training Loss: 0.1508, Validation Loss: 0.2009
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.556, 10.214] μ=1.034 σ=4.676
+tensor 0.010
+Epoch: 154, Training Loss: 0.1499, Validation Loss: 0.1990
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.676, 10.188] μ=0.907 σ=4.773
+tensor 0.007
+Epoch: 155, Training Loss: 0.1519, Validation Loss: 0.1924
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.660, 9.712] μ=0.802 σ=4.574
+tensor 0.025
+Epoch: 156, Training Loss: 0.1454, Validation Loss: 0.1904
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.344, 10.198] μ=0.999 σ=4.768
+tensor 0.009
+Epoch: 157, Training Loss: 0.1441, Validation Loss: 0.2016
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.519, 9.969] μ=0.883 σ=4.654
+tensor 0.023
+Epoch: 158, Training Loss: 0.1373, Validation Loss: 0.1973
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.664, 10.002] μ=0.873 σ=4.752
+tensor 0.006
+Epoch: 159, Training Loss: 0.1420, Validation Loss: 0.1925
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.620, 10.104] μ=0.951 σ=4.702
+tensor 0.014
+Epoch: 160, Training Loss: 0.1446, Validation Loss: 0.1934
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.666, 10.074] μ=0.909 σ=4.774
+tensor 0.021
+Epoch: 161, Training Loss: 0.1421, Validation Loss: 0.2006
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.773, 10.293] μ=0.952 σ=4.815
+tensor 0.019
+Epoch: 162, Training Loss: 0.1473, Validation Loss: 0.2014
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.640, 9.998] μ=0.905 σ=4.771
+tensor 0.010
+Epoch: 163, Training Loss: 0.1451, Validation Loss: 0.1858
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.833, 10.255] μ=0.932 σ=4.868
+tensor 0.009
+Epoch: 164, Training Loss: 0.1550, Validation Loss: 0.1928
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.637, 10.347] μ=0.964 σ=4.827
+tensor 0.014
+Epoch: 165, Training Loss: 0.1385, Validation Loss: 0.1935
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.955, 10.362] μ=0.931 σ=4.898
+tensor 0.011
+Epoch: 166, Training Loss: 0.1467, Validation Loss: 0.1997
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.824, 10.253] μ=0.885 σ=4.853
+tensor 0.022
+Epoch: 167, Training Loss: 0.1367, Validation Loss: 0.1950
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.994, 10.294] μ=0.944 σ=4.919
+tensor 0.019
+Epoch: 168, Training Loss: 0.1338, Validation Loss: 0.1875
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.838, 10.421] μ=0.950 σ=4.925
+tensor 0.008
+Epoch: 169, Training Loss: 0.1409, Validation Loss: 0.1918
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.877, 10.448] μ=0.975 σ=4.928
+tensor 0.047
+Epoch: 170, Training Loss: 0.1329, Validation Loss: 0.1867
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.961, 10.620] μ=0.964 σ=4.966
+tensor 0.011
+Epoch: 171, Training Loss: 0.1341, Validation Loss: 0.1952
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.938, 10.541] μ=0.944 σ=4.996
+tensor 0.036
+Epoch: 172, Training Loss: 0.1358, Validation Loss: 0.1899
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.002, 10.551] μ=0.972 σ=4.925
+tensor 0.009
+Epoch: 173, Training Loss: 0.1456, Validation Loss: 0.1946
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-8.923, 10.538] μ=0.913 σ=4.967
+tensor 0.010
+Epoch: 174, Training Loss: 0.1367, Validation Loss: 0.1956
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.078, 10.753] μ=0.999 σ=5.044
+tensor 0.036
+Epoch: 175, Training Loss: 0.1439, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.168, 10.794] μ=0.961 σ=5.060
+tensor 0.024
+Epoch: 176, Training Loss: 0.1384, Validation Loss: 0.1995
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.130, 10.742] μ=0.962 σ=5.002
+tensor 0.020
+Epoch: 177, Training Loss: 0.1419, Validation Loss: 0.2015
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.335, 10.853] μ=0.973 σ=5.107
+tensor 0.022
+Epoch: 178, Training Loss: 0.1376, Validation Loss: 0.1934
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.154, 10.915] μ=0.960 σ=5.049
+tensor 0.011
+Epoch: 179, Training Loss: 0.1400, Validation Loss: 0.1923
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.228, 10.780] μ=0.975 σ=5.057
+tensor 0.011
+Epoch: 180, Training Loss: 0.1349, Validation Loss: 0.1888
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.415, 10.813] μ=0.919 σ=5.106
+tensor 0.010
+Epoch: 181, Training Loss: 0.1408, Validation Loss: 0.1894
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.036, 10.954] μ=1.014 σ=5.124
+tensor 0.010
+Epoch: 182, Training Loss: 0.1379, Validation Loss: 0.1990
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.293, 10.885] μ=0.993 σ=5.135
+tensor 0.016
+Epoch: 183, Training Loss: 0.1400, Validation Loss: 0.1972
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.298, 10.972] μ=0.946 σ=5.153
+tensor 0.010
+Epoch: 184, Training Loss: 0.1394, Validation Loss: 0.1983
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.376, 10.982] μ=1.021 σ=5.155
+tensor 0.011
+Epoch: 185, Training Loss: 0.1334, Validation Loss: 0.1820
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.594, 11.067] μ=0.999 σ=5.202
+tensor 0.013
+Epoch: 186, Training Loss: 0.1321, Validation Loss: 0.1971
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.636, 11.094] μ=0.972 σ=5.216
+tensor 0.022
+Epoch: 187, Training Loss: 0.1450, Validation Loss: 0.1937
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.305, 10.936] μ=1.013 σ=5.144
+tensor 0.010
+Epoch: 188, Training Loss: 0.1374, Validation Loss: 0.1962
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.563, 11.045] μ=0.914 σ=5.221
+tensor 0.009
+Epoch: 189, Training Loss: 0.1334, Validation Loss: 0.1939
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.224, 11.111] μ=1.011 σ=5.205
+tensor 0.016
+Epoch: 190, Training Loss: 0.1352, Validation Loss: 0.1979
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.472, 11.254] μ=1.019 σ=5.265
+tensor 0.007
+Epoch: 191, Training Loss: 0.1403, Validation Loss: 0.1954
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.303, 11.237] μ=1.008 σ=5.262
+tensor 0.011
+Epoch: 192, Training Loss: 0.1432, Validation Loss: 0.1844
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.229, 11.250] μ=0.978 σ=5.228
+tensor 0.031
+Epoch: 193, Training Loss: 0.1340, Validation Loss: 0.1924
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.341, 11.298] μ=1.025 σ=5.276
+tensor 0.028
+Epoch: 194, Training Loss: 0.1356, Validation Loss: 0.2004
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.479, 11.263] μ=0.956 σ=5.270
+tensor 0.018
+Epoch: 195, Training Loss: 0.1351, Validation Loss: 0.2013
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.564, 11.373] μ=0.993 σ=5.290
+tensor 0.027
+Epoch: 196, Training Loss: 0.1316, Validation Loss: 0.1957
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.602, 11.518] μ=1.074 σ=5.361
+tensor 0.023
+Epoch: 197, Training Loss: 0.1373, Validation Loss: 0.1980
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.417, 11.383] μ=1.024 σ=5.315
+tensor 0.012
+Epoch: 198, Training Loss: 0.1404, Validation Loss: 0.2006
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.767, 11.454] μ=0.952 σ=5.404
+tensor 0.027
+Epoch: 199, Training Loss: 0.1313, Validation Loss: 0.1913
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.401, 11.536] μ=1.044 σ=5.357
+tensor 0.009
+Epoch: 200, Training Loss: 0.1304, Validation Loss: 0.2062
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.627, 11.629] μ=1.056 σ=5.410
+tensor 0.014
+Epoch: 201, Training Loss: 0.1285, Validation Loss: 0.2040
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.597, 11.568] μ=0.955 σ=5.398
+tensor 0.012
+Epoch: 202, Training Loss: 0.1296, Validation Loss: 0.2016
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.512, 11.631] μ=1.042 σ=5.415
+tensor 0.020
+Epoch: 203, Training Loss: 0.1333, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.576, 11.685] μ=1.047 σ=5.453
+tensor 0.013
+Epoch: 204, Training Loss: 0.1315, Validation Loss: 0.1945
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.487, 11.598] μ=1.057 σ=5.381
+tensor 0.013
+Epoch: 205, Training Loss: 0.1286, Validation Loss: 0.1899
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.674, 11.567] μ=0.968 σ=5.423
+tensor 0.016
+Epoch: 206, Training Loss: 0.1257, Validation Loss: 0.2052
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.431, 11.726] μ=1.041 σ=5.408
+tensor 0.012
+Epoch: 207, Training Loss: 0.1331, Validation Loss: 0.1963
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.606, 11.711] μ=1.022 σ=5.465
+tensor 0.013
+Epoch: 208, Training Loss: 0.1326, Validation Loss: 0.1941
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.841, 11.784] μ=0.993 σ=5.524
+tensor 0.007
+Epoch: 209, Training Loss: 0.1329, Validation Loss: 0.1977
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.830, 11.901] μ=1.080 σ=5.517
+tensor 0.025
+Epoch: 210, Training Loss: 0.1365, Validation Loss: 0.1974
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.847, 11.767] μ=1.067 σ=5.509
+tensor 0.006
+Epoch: 211, Training Loss: 0.1300, Validation Loss: 0.1940
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.081, 11.782] μ=0.964 σ=5.596
+tensor 0.011
+Epoch: 212, Training Loss: 0.1325, Validation Loss: 0.2096
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.061, 12.117] μ=1.071 σ=5.620
+tensor 0.013
+Epoch: 213, Training Loss: 0.1357, Validation Loss: 0.1987
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.965, 12.252] μ=1.177 σ=5.650
+tensor 0.011
+Epoch: 214, Training Loss: 0.1295, Validation Loss: 0.1965
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.232, 12.034] μ=0.943 σ=5.638
+tensor 0.006
+Epoch: 215, Training Loss: 0.1326, Validation Loss: 0.2047
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.842, 12.133] μ=1.061 σ=5.613
+tensor 0.009
+Epoch: 216, Training Loss: 0.1289, Validation Loss: 0.1965
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.949, 12.170] μ=1.098 σ=5.654
+tensor 0.010
+Epoch: 217, Training Loss: 0.1342, Validation Loss: 0.1932
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.746, 12.151] μ=1.006 σ=5.671
+tensor 0.016
+Epoch: 218, Training Loss: 0.1238, Validation Loss: 0.2022
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.103, 12.146] μ=1.013 σ=5.639
+tensor 0.011
+Epoch: 219, Training Loss: 0.1297, Validation Loss: 0.1949
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.998, 12.221] μ=1.093 σ=5.708
+tensor 0.018
+Epoch: 220, Training Loss: 0.1322, Validation Loss: 0.1945
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.027, 12.221] μ=1.131 σ=5.641
+tensor 0.008
+Epoch: 221, Training Loss: 0.1279, Validation Loss: 0.1845
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.229, 12.404] μ=1.055 σ=5.767
+tensor 0.042
+Epoch: 222, Training Loss: 0.1254, Validation Loss: 0.2026
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-9.940, 12.178] μ=1.025 σ=5.696
+tensor 0.016
+Epoch: 223, Training Loss: 0.1334, Validation Loss: 0.1981
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.277, 12.537] μ=1.082 σ=5.750
+tensor 0.018
+Epoch: 224, Training Loss: 0.1337, Validation Loss: 0.1931
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.170, 12.465] μ=1.133 σ=5.781
+tensor 0.033
+Epoch: 225, Training Loss: 0.1311, Validation Loss: 0.2020
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.449, 12.423] μ=1.053 σ=5.781
+tensor 0.011
+Epoch: 226, Training Loss: 0.1230, Validation Loss: 0.1936
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.418, 12.596] μ=1.068 σ=5.818
+tensor 0.022
+Epoch: 227, Training Loss: 0.1238, Validation Loss: 0.1903
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.426, 12.463] μ=1.102 σ=5.812
+tensor 0.014
+Epoch: 228, Training Loss: 0.1290, Validation Loss: 0.1932
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.201, 12.573] μ=1.075 σ=5.803
+tensor 0.019
+Epoch: 229, Training Loss: 0.1292, Validation Loss: 0.1930
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.443, 12.407] μ=1.034 σ=5.773
+tensor 0.013
+Epoch: 230, Training Loss: 0.1293, Validation Loss: 0.2051
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.409, 12.560] μ=1.108 σ=5.801
+tensor 0.004
+Epoch: 231, Training Loss: 0.1267, Validation Loss: 0.2089
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.329, 12.648] μ=1.059 σ=5.830
+tensor 0.004
+Epoch: 232, Training Loss: 0.1287, Validation Loss: 0.1941
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.504, 12.659] μ=1.117 σ=5.876
+tensor 0.018
+Epoch: 233, Training Loss: 0.1292, Validation Loss: 0.1923
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.459, 12.652] μ=1.033 σ=5.859
+tensor 0.016
+Epoch: 234, Training Loss: 0.1277, Validation Loss: 0.1902
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.304, 12.708] μ=1.081 σ=5.875
+tensor 0.027
+Epoch: 235, Training Loss: 0.1187, Validation Loss: 0.2097
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.509, 12.671] μ=1.080 σ=5.903
+tensor 0.009
+Epoch: 236, Training Loss: 0.1284, Validation Loss: 0.1899
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.356, 12.979] μ=1.109 σ=5.933
+tensor 0.018
+Epoch: 237, Training Loss: 0.1298, Validation Loss: 0.1930
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.460, 12.907] μ=1.158 σ=5.916
+tensor 0.008
+Epoch: 238, Training Loss: 0.1306, Validation Loss: 0.1975
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.680, 12.768] μ=1.072 σ=5.944
+tensor 0.015
+Epoch: 239, Training Loss: 0.1233, Validation Loss: 0.2141
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.721, 12.819] μ=1.036 σ=5.956
+tensor 0.019
+Epoch: 240, Training Loss: 0.1251, Validation Loss: 0.2036
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.525, 12.918] μ=1.208 σ=5.929
+tensor 0.009
+Epoch: 241, Training Loss: 0.1274, Validation Loss: 0.1958
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.504, 13.020] μ=1.138 σ=5.994
+tensor 0.024
+Epoch: 242, Training Loss: 0.1244, Validation Loss: 0.1950
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.899, 12.803] μ=0.966 σ=6.006
+tensor 0.017
+Epoch: 243, Training Loss: 0.1243, Validation Loss: 0.1900
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.355, 13.145] μ=1.293 σ=5.976
+tensor 0.015
+Epoch: 244, Training Loss: 0.1304, Validation Loss: 0.2037
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.886, 13.002] μ=1.026 σ=5.987
+tensor 0.009
+Epoch: 245, Training Loss: 0.1293, Validation Loss: 0.1848
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.843, 13.046] μ=1.104 σ=6.041
+tensor 0.011
+Epoch: 246, Training Loss: 0.1181, Validation Loss: 0.1860
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.836, 13.210] μ=1.108 σ=6.003
+tensor 0.010
+Epoch: 247, Training Loss: 0.1271, Validation Loss: 0.1905
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.857, 13.343] μ=1.109 σ=6.131
+tensor 0.013
+Epoch: 248, Training Loss: 0.1169, Validation Loss: 0.2039
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.936, 13.120] μ=1.129 σ=6.009
+tensor 0.014
+Epoch: 249, Training Loss: 0.1286, Validation Loss: 0.1989
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.850, 13.427] μ=1.122 σ=6.182
+tensor 0.010
+Epoch: 250, Training Loss: 0.1273, Validation Loss: 0.1913
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.001, 13.219] μ=1.106 σ=6.113
+tensor 0.011
+Epoch: 251, Training Loss: 0.1244, Validation Loss: 0.1954
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.892, 13.450] μ=1.162 σ=6.165
+tensor 0.011
+Epoch: 252, Training Loss: 0.1197, Validation Loss: 0.2022
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.852, 13.454] μ=1.143 σ=6.152
+tensor 0.029
+Epoch: 253, Training Loss: 0.1235, Validation Loss: 0.1980
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.155, 13.377] μ=1.087 σ=6.181
+tensor 0.011
+Epoch: 254, Training Loss: 0.1240, Validation Loss: 0.1972
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.923, 13.689] μ=1.178 σ=6.214
+tensor 0.012
+Epoch: 255, Training Loss: 0.1210, Validation Loss: 0.1926
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.092, 13.528] μ=1.158 σ=6.166
+tensor 0.012
+Epoch: 256, Training Loss: 0.1195, Validation Loss: 0.1913
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.951, 13.400] μ=1.103 σ=6.140
+tensor 0.007
+Epoch: 257, Training Loss: 0.1244, Validation Loss: 0.1909
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.280, 13.566] μ=1.071 σ=6.199
+tensor 0.024
+Epoch: 258, Training Loss: 0.1283, Validation Loss: 0.2078
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-10.884, 13.599] μ=1.249 σ=6.205
+tensor 0.018
+Epoch: 259, Training Loss: 0.1198, Validation Loss: 0.1909
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.046, 13.493] μ=1.108 σ=6.149
+tensor 0.010
+Epoch: 260, Training Loss: 0.1221, Validation Loss: 0.1975
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.071, 13.535] μ=1.128 σ=6.281
+tensor 0.014
+Epoch: 261, Training Loss: 0.1259, Validation Loss: 0.2075
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.046, 13.635] μ=1.152 σ=6.252
+tensor 0.022
+Epoch: 262, Training Loss: 0.1209, Validation Loss: 0.2030
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.149, 13.655] μ=1.142 σ=6.271
+tensor 0.009
+Epoch: 263, Training Loss: 0.1146, Validation Loss: 0.2053
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.141, 13.635] μ=1.149 σ=6.292
+tensor 0.008
+Epoch: 264, Training Loss: 0.1172, Validation Loss: 0.2088
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.365, 13.716] μ=1.090 σ=6.312
+tensor 0.013
+Epoch: 265, Training Loss: 0.1209, Validation Loss: 0.2076
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.259, 14.001] μ=1.253 σ=6.366
+tensor 0.008
+Epoch: 266, Training Loss: 0.1195, Validation Loss: 0.1983
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.291, 13.868] μ=1.138 σ=6.347
+tensor 0.014
+Epoch: 267, Training Loss: 0.1190, Validation Loss: 0.2096
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.561, 13.924] μ=1.093 σ=6.367
+tensor 0.018
+Epoch: 268, Training Loss: 0.1205, Validation Loss: 0.2084
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.114, 13.892] μ=1.208 σ=6.300
+tensor 0.018
+Epoch: 269, Training Loss: 0.1220, Validation Loss: 0.2031
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.360, 13.713] μ=1.073 σ=6.292
+tensor 0.013
+Epoch: 270, Training Loss: 0.1269, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.078, 13.824] μ=1.162 σ=6.266
+tensor 0.016
+Epoch: 271, Training Loss: 0.1181, Validation Loss: 0.1875
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.376, 14.044] μ=1.233 σ=6.401
+tensor 0.007
+Epoch: 272, Training Loss: 0.1217, Validation Loss: 0.2031
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.435, 13.780] μ=1.090 σ=6.327
+tensor 0.010
+Epoch: 273, Training Loss: 0.1190, Validation Loss: 0.2033
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.456, 14.265] μ=1.233 σ=6.472
+tensor 0.011
+Epoch: 274, Training Loss: 0.1152, Validation Loss: 0.2071
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.392, 14.065] μ=1.143 σ=6.388
+tensor 0.038
+Epoch: 275, Training Loss: 0.1139, Validation Loss: 0.2183
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.274, 14.104] μ=1.187 σ=6.381
+tensor 0.011
+Epoch: 276, Training Loss: 0.1192, Validation Loss: 0.1994
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.440, 14.172] μ=1.133 σ=6.454
+tensor 0.006
+Epoch: 277, Training Loss: 0.1239, Validation Loss: 0.1965
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.416, 14.225] μ=1.215 σ=6.441
+tensor 0.014
+Epoch: 278, Training Loss: 0.1216, Validation Loss: 0.2072
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.522, 14.378] μ=1.244 σ=6.521
+tensor 0.012
+Epoch: 279, Training Loss: 0.1229, Validation Loss: 0.1953
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.553, 14.186] μ=1.098 σ=6.479
+tensor 0.007
+Epoch: 280, Training Loss: 0.1185, Validation Loss: 0.2058
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.590, 14.479] μ=1.216 σ=6.543
+tensor 0.023
+Epoch: 281, Training Loss: 0.1157, Validation Loss: 0.1991
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.492, 14.441] μ=1.237 σ=6.511
+tensor 0.018
+Epoch: 282, Training Loss: 0.1182, Validation Loss: 0.1960
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.703, 14.418] μ=1.149 σ=6.550
+tensor 0.030
+Epoch: 283, Training Loss: 0.1201, Validation Loss: 0.2025
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.525, 14.377] μ=1.238 σ=6.495
+tensor 0.014
+Epoch: 284, Training Loss: 0.1142, Validation Loss: 0.2067
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.562, 14.547] μ=1.251 σ=6.567
+tensor 0.032
+Epoch: 285, Training Loss: 0.1166, Validation Loss: 0.2023
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.789, 14.447] μ=1.146 σ=6.605
+tensor 0.014
+Epoch: 286, Training Loss: 0.1137, Validation Loss: 0.1867
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.678, 14.575] μ=1.219 σ=6.617
+tensor 0.014
+Epoch: 287, Training Loss: 0.1158, Validation Loss: 0.2038
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.729, 14.445] μ=1.185 σ=6.559
+tensor 0.013
+Epoch: 288, Training Loss: 0.1207, Validation Loss: 0.1950
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.864, 14.711] μ=1.235 σ=6.686
+tensor 0.008
+Epoch: 289, Training Loss: 0.1116, Validation Loss: 0.2057
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.756, 14.553] μ=1.208 σ=6.588
+tensor 0.012
+Epoch: 290, Training Loss: 0.1208, Validation Loss: 0.1850
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.913, 14.747] μ=1.200 σ=6.703
+tensor 0.015
+Epoch: 291, Training Loss: 0.1153, Validation Loss: 0.2012
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.914, 14.687] μ=1.189 σ=6.700
+tensor 0.010
+Epoch: 292, Training Loss: 0.1176, Validation Loss: 0.1979
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.829, 14.754] μ=1.285 σ=6.674
+tensor 0.021
+Epoch: 293, Training Loss: 0.1191, Validation Loss: 0.1917
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.086, 14.855] μ=1.185 σ=6.734
+tensor 0.010
+Epoch: 294, Training Loss: 0.1157, Validation Loss: 0.2016
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-11.972, 14.765] μ=1.303 σ=6.689
+tensor 0.010
+Epoch: 295, Training Loss: 0.1132, Validation Loss: 0.2030
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.221, 14.810] μ=1.163 σ=6.786
+tensor 0.016
+Epoch: 296, Training Loss: 0.1135, Validation Loss: 0.2001
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.161, 14.912] μ=1.254 σ=6.768
+tensor 0.014
+Epoch: 297, Training Loss: 0.1168, Validation Loss: 0.2131
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.277, 14.981] μ=1.216 σ=6.826
+tensor 0.028
+Epoch: 298, Training Loss: 0.1171, Validation Loss: 0.2092
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.202, 15.068] μ=1.273 σ=6.831
+tensor 0.007
+Epoch: 299, Training Loss: 0.1104, Validation Loss: 0.1999
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.281, 14.911] μ=1.179 σ=6.777
+tensor 0.011
+Epoch: 300, Training Loss: 0.1112, Validation Loss: 0.1945
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.200, 15.062] μ=1.278 σ=6.837
+tensor 0.014
+Epoch: 301, Training Loss: 0.1158, Validation Loss: 0.2026
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.211, 14.861] μ=1.258 σ=6.772
+tensor 0.009
+Epoch: 302, Training Loss: 0.1169, Validation Loss: 0.2001
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.464, 15.063] μ=1.199 σ=6.873
+tensor 0.007
+Epoch: 303, Training Loss: 0.1089, Validation Loss: 0.2083
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.348, 14.998] μ=1.238 σ=6.855
+tensor 0.012
+Epoch: 304, Training Loss: 0.1156, Validation Loss: 0.1984
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.543, 15.266] μ=1.292 σ=6.923
+tensor 0.011
+Epoch: 305, Training Loss: 0.1133, Validation Loss: 0.2047
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.727, 15.204] μ=1.158 σ=6.924
+tensor 0.018
+Epoch: 306, Training Loss: 0.1152, Validation Loss: 0.2019
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.490, 15.356] μ=1.332 σ=6.952
+tensor 0.019
+Epoch: 307, Training Loss: 0.1109, Validation Loss: 0.1948
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.608, 15.163] μ=1.192 σ=6.905
+tensor 0.013
+Epoch: 308, Training Loss: 0.1168, Validation Loss: 0.2089
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.655, 15.520] μ=1.314 σ=7.021
+tensor 0.011
+Epoch: 309, Training Loss: 0.1116, Validation Loss: 0.2093
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.518, 15.121] μ=1.231 σ=6.873
+tensor 0.008
+Epoch: 310, Training Loss: 0.1237, Validation Loss: 0.1927
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.685, 15.524] μ=1.289 σ=7.041
+tensor 0.015
+Epoch: 311, Training Loss: 0.1117, Validation Loss: 0.2014
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.402, 15.116] μ=1.195 σ=6.867
+tensor 0.013
+Epoch: 312, Training Loss: 0.1167, Validation Loss: 0.2061
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.760, 15.366] μ=1.189 σ=7.031
+tensor 0.007
+Epoch: 313, Training Loss: 0.1123, Validation Loss: 0.2088
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.577, 15.365] μ=1.270 σ=6.920
+tensor 0.007
+Epoch: 314, Training Loss: 0.1159, Validation Loss: 0.1985
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.535, 15.561] μ=1.325 σ=7.003
+tensor 0.011
+Epoch: 315, Training Loss: 0.1130, Validation Loss: 0.2042
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.761, 15.280] μ=1.190 σ=6.924
+tensor 0.031
+Epoch: 316, Training Loss: 0.1153, Validation Loss: 0.2128
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.817, 15.559] μ=1.250 σ=7.062
+tensor 0.007
+Epoch: 317, Training Loss: 0.1136, Validation Loss: 0.2041
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.821, 15.392] μ=1.258 σ=7.011
+tensor 0.023
+Epoch: 318, Training Loss: 0.1103, Validation Loss: 0.2036
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.831, 15.573] μ=1.309 σ=7.050
+tensor 0.029
+Epoch: 319, Training Loss: 0.1099, Validation Loss: 0.2112
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.882, 15.298] μ=1.238 σ=7.015
+tensor 0.012
+Epoch: 320, Training Loss: 0.1085, Validation Loss: 0.1965
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.159, 15.471] μ=1.221 σ=7.046
+tensor 0.013
+Epoch: 321, Training Loss: 0.1105, Validation Loss: 0.2080
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-12.979, 15.558] μ=1.344 σ=7.010
+tensor 0.020
+Epoch: 322, Training Loss: 0.1137, Validation Loss: 0.2034
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.182, 15.583] μ=1.205 σ=7.103
+tensor 0.017
+Epoch: 323, Training Loss: 0.1121, Validation Loss: 0.2077
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.205, 15.986] μ=1.345 σ=7.129
+tensor 0.008
+Epoch: 324, Training Loss: 0.1162, Validation Loss: 0.1960
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.218, 15.767] μ=1.217 σ=7.121
+tensor 0.013
+Epoch: 325, Training Loss: 0.1126, Validation Loss: 0.2013
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.176, 15.994] μ=1.347 σ=7.126
+tensor 0.013
+Epoch: 326, Training Loss: 0.1093, Validation Loss: 0.2009
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.315, 15.798] μ=1.283 σ=7.100
+tensor 0.009
+Epoch: 327, Training Loss: 0.1068, Validation Loss: 0.1955
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.579, 15.967] μ=1.211 σ=7.266
+tensor 0.024
+Epoch: 328, Training Loss: 0.1174, Validation Loss: 0.2076
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.368, 15.591] μ=1.188 σ=7.104
+tensor 0.020
+Epoch: 329, Training Loss: 0.1184, Validation Loss: 0.2075
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.110, 16.160] μ=1.413 σ=7.216
+tensor 0.009
+Epoch: 330, Training Loss: 0.1140, Validation Loss: 0.1930
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.072, 15.651] μ=1.270 σ=7.094
+tensor 0.013
+Epoch: 331, Training Loss: 0.1113, Validation Loss: 0.2140
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.365, 15.847] μ=1.211 σ=7.252
+tensor 0.015
+Epoch: 332, Training Loss: 0.1097, Validation Loss: 0.2087
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.220, 15.917] μ=1.294 σ=7.122
+tensor 0.011
+Epoch: 333, Training Loss: 0.1088, Validation Loss: 0.2054
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.416, 15.964] μ=1.267 σ=7.191
+tensor 0.011
+Epoch: 334, Training Loss: 0.1087, Validation Loss: 0.1934
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.385, 15.950] μ=1.329 σ=7.165
+tensor 0.011
+Epoch: 335, Training Loss: 0.1058, Validation Loss: 0.2018
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.487, 16.004] μ=1.222 σ=7.237
+tensor 0.006
+Epoch: 336, Training Loss: 0.1052, Validation Loss: 0.2044
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.651, 16.153] μ=1.329 σ=7.294
+tensor 0.013
+Epoch: 337, Training Loss: 0.1147, Validation Loss: 0.1986
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.390, 16.128] μ=1.405 σ=7.229
+tensor 0.013
+Epoch: 338, Training Loss: 0.1092, Validation Loss: 0.2078
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.697, 16.054] μ=1.237 σ=7.290
+tensor 0.012
+Epoch: 339, Training Loss: 0.1148, Validation Loss: 0.1997
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.779, 16.047] μ=1.194 σ=7.284
+tensor 0.018
+Epoch: 340, Training Loss: 0.1141, Validation Loss: 0.2052
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.292, 16.315] μ=1.463 σ=7.309
+tensor 0.029
+Epoch: 341, Training Loss: 0.1028, Validation Loss: 0.1936
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.741, 15.867] μ=1.138 σ=7.253
+tensor 0.016
+Epoch: 342, Training Loss: 0.1042, Validation Loss: 0.2012
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.696, 16.274] μ=1.348 σ=7.350
+tensor 0.016
+Epoch: 343, Training Loss: 0.1131, Validation Loss: 0.2089
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.749, 15.928] μ=1.319 σ=7.221
+tensor 0.008
+Epoch: 344, Training Loss: 0.1093, Validation Loss: 0.2032
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.088, 16.154] μ=1.229 σ=7.393
+tensor 0.009
+Epoch: 345, Training Loss: 0.1067, Validation Loss: 0.2102
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.703, 16.093] μ=1.325 σ=7.287
+tensor 0.011
+Epoch: 346, Training Loss: 0.1105, Validation Loss: 0.1983
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.832, 16.345] μ=1.330 σ=7.411
+tensor 0.013
+Epoch: 347, Training Loss: 0.1185, Validation Loss: 0.1974
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.599, 16.211] μ=1.332 σ=7.306
+tensor 0.019
+Epoch: 348, Training Loss: 0.1072, Validation Loss: 0.1890
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.790, 16.155] μ=1.317 σ=7.383
+tensor 0.020
+Epoch: 349, Training Loss: 0.1087, Validation Loss: 0.2029
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.942, 16.149] μ=1.205 σ=7.339
+tensor 0.021
+Epoch: 350, Training Loss: 0.1126, Validation Loss: 0.2010
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.857, 16.328] μ=1.389 σ=7.393
+tensor 0.018
+Epoch: 351, Training Loss: 0.1094, Validation Loss: 0.2068
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.981, 16.132] μ=1.254 σ=7.391
+tensor 0.019
+Epoch: 352, Training Loss: 0.1055, Validation Loss: 0.2088
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.804, 16.569] μ=1.412 σ=7.426
+tensor 0.042
+Epoch: 353, Training Loss: 0.1081, Validation Loss: 0.1982
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.969, 16.330] μ=1.289 σ=7.431
+tensor 0.008
+Epoch: 354, Training Loss: 0.1068, Validation Loss: 0.2120
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.026, 16.676] μ=1.299 σ=7.488
+tensor 0.006
+Epoch: 355, Training Loss: 0.1123, Validation Loss: 0.1983
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.054, 16.762] μ=1.397 σ=7.530
+tensor 0.007
+Epoch: 356, Training Loss: 0.1048, Validation Loss: 0.2051
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.114, 16.580] μ=1.255 σ=7.511
+tensor 0.014
+Epoch: 357, Training Loss: 0.1120, Validation Loss: 0.2044
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-13.980, 16.737] μ=1.369 σ=7.476
+tensor 0.015
+Epoch: 358, Training Loss: 0.1083, Validation Loss: 0.1987
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.058, 16.650] μ=1.316 σ=7.504
+tensor 0.038
+Epoch: 359, Training Loss: 0.1060, Validation Loss: 0.2039
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.216, 17.080] μ=1.393 σ=7.657
+tensor 0.026
+Epoch: 360, Training Loss: 0.1040, Validation Loss: 0.2064
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.342, 16.873] μ=1.298 σ=7.590
+tensor 0.014
+Epoch: 361, Training Loss: 0.1038, Validation Loss: 0.1996
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.088, 17.062] μ=1.409 σ=7.604
+tensor 0.007
+Epoch: 362, Training Loss: 0.1038, Validation Loss: 0.2109
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.189, 16.817] μ=1.340 σ=7.536
+tensor 0.020
+Epoch: 363, Training Loss: 0.1079, Validation Loss: 0.2075
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.266, 16.904] μ=1.326 σ=7.602
+tensor 0.020
+Epoch: 364, Training Loss: 0.1108, Validation Loss: 0.2080
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.217, 16.944] μ=1.375 σ=7.614
+tensor 0.018
+Epoch: 365, Training Loss: 0.1100, Validation Loss: 0.2095
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.334, 16.799] μ=1.352 σ=7.606
+tensor 0.008
+Epoch: 366, Training Loss: 0.1104, Validation Loss: 0.2080
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.168, 16.817] μ=1.353 σ=7.585
+tensor 0.008
+Epoch: 367, Training Loss: 0.1048, Validation Loss: 0.2142
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.344, 16.847] μ=1.304 σ=7.611
+tensor 0.006
+Epoch: 368, Training Loss: 0.1053, Validation Loss: 0.2022
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.304, 16.988] μ=1.386 σ=7.602
+tensor 0.008
+Epoch: 369, Training Loss: 0.1065, Validation Loss: 0.2031
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.260, 17.169] μ=1.421 σ=7.629
+tensor 0.014
+Epoch: 370, Training Loss: 0.1025, Validation Loss: 0.2091
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.465, 16.824] μ=1.269 σ=7.583
+tensor 0.006
+Epoch: 371, Training Loss: 0.1089, Validation Loss: 0.2049
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.537, 17.290] μ=1.378 σ=7.720
+tensor 0.016
+Epoch: 372, Training Loss: 0.1037, Validation Loss: 0.1921
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.319, 16.852] μ=1.323 σ=7.585
+tensor 0.010
+Epoch: 373, Training Loss: 0.1068, Validation Loss: 0.2037
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.549, 17.332] μ=1.423 σ=7.764
+tensor 0.018
+Epoch: 374, Training Loss: 0.1113, Validation Loss: 0.2066
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.392, 16.955] μ=1.259 σ=7.637
+tensor 0.025
+Epoch: 375, Training Loss: 0.1093, Validation Loss: 0.2078
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.549, 17.440] μ=1.491 σ=7.792
+tensor 0.018
+Epoch: 376, Training Loss: 0.1037, Validation Loss: 0.2057
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.464, 17.141] μ=1.366 σ=7.671
+tensor 0.028
+Epoch: 377, Training Loss: 0.1087, Validation Loss: 0.1942
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.570, 17.316] μ=1.316 σ=7.807
+tensor 0.012
+Epoch: 378, Training Loss: 0.1112, Validation Loss: 0.2035
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.624, 17.254] μ=1.388 σ=7.709
+tensor 0.014
+Epoch: 379, Training Loss: 0.1097, Validation Loss: 0.1996
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.642, 17.377] μ=1.413 σ=7.760
+tensor 0.009
+Epoch: 380, Training Loss: 0.1018, Validation Loss: 0.2043
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.557, 17.446] μ=1.495 σ=7.764
+tensor 0.016
+Epoch: 381, Training Loss: 0.1048, Validation Loss: 0.2152
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.627, 16.983] μ=1.208 σ=7.739
+tensor 0.008
+Epoch: 382, Training Loss: 0.1039, Validation Loss: 0.1985
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.352, 17.562] μ=1.480 σ=7.783
+tensor 0.012
+Epoch: 383, Training Loss: 0.1081, Validation Loss: 0.2018
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.409, 17.295] μ=1.449 σ=7.738
+tensor 0.023
+Epoch: 384, Training Loss: 0.1087, Validation Loss: 0.1960
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.618, 17.409] μ=1.311 σ=7.828
+tensor 0.020
+Epoch: 385, Training Loss: 0.1042, Validation Loss: 0.2107
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.720, 17.267] μ=1.323 σ=7.775
+tensor 0.004
+Epoch: 386, Training Loss: 0.1045, Validation Loss: 0.2032
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.553, 17.485] μ=1.544 σ=7.781
+tensor 0.015
+Epoch: 387, Training Loss: 0.1044, Validation Loss: 0.2056
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.100, 17.532] μ=1.270 σ=7.869
+tensor 0.008
+Epoch: 388, Training Loss: 0.1065, Validation Loss: 0.2027
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.932, 17.233] μ=1.362 σ=7.772
+tensor 0.020
+Epoch: 389, Training Loss: 0.1100, Validation Loss: 0.2097
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.776, 17.714] μ=1.500 σ=7.822
+tensor 0.007
+Epoch: 390, Training Loss: 0.1046, Validation Loss: 0.1993
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.158, 17.572] μ=1.285 σ=7.887
+tensor 0.008
+Epoch: 391, Training Loss: 0.1052, Validation Loss: 0.2048
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.808, 17.610] μ=1.481 σ=7.847
+tensor 0.009
+Epoch: 392, Training Loss: 0.1059, Validation Loss: 0.2088
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.161, 17.725] μ=1.336 σ=7.968
+tensor 0.013
+Epoch: 393, Training Loss: 0.1096, Validation Loss: 0.2050
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.020, 17.785] μ=1.381 σ=7.950
+tensor 0.009
+Epoch: 394, Training Loss: 0.1033, Validation Loss: 0.2020
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.986, 17.765] μ=1.459 σ=7.925
+tensor 0.015
+Epoch: 395, Training Loss: 0.1069, Validation Loss: 0.2083
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.938, 17.759] μ=1.455 σ=7.894
+tensor 0.026
+Epoch: 396, Training Loss: 0.1036, Validation Loss: 0.2142
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.105, 17.558] μ=1.358 σ=7.894
+tensor 0.011
+Epoch: 397, Training Loss: 0.1037, Validation Loss: 0.1911
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.310, 17.808] μ=1.437 σ=8.000
+tensor 0.009
+Epoch: 398, Training Loss: 0.1109, Validation Loss: 0.2034
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.144, 17.547] μ=1.394 σ=7.877
+tensor 0.007
+Epoch: 399, Training Loss: 0.1052, Validation Loss: 0.2108
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.125, 17.667] μ=1.455 σ=7.928
+tensor 0.011
+Epoch: 400, Training Loss: 0.1132, Validation Loss: 0.1947
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.028, 17.741] μ=1.466 σ=7.935
+tensor 0.009
+Epoch: 401, Training Loss: 0.1063, Validation Loss: 0.2067
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.194, 17.592] μ=1.315 σ=7.973
+tensor 0.006
+Epoch: 402, Training Loss: 0.1089, Validation Loss: 0.2063
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.240, 17.849] μ=1.462 σ=8.039
+tensor 0.009
+Epoch: 403, Training Loss: 0.1044, Validation Loss: 0.2129
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-14.936, 17.918] μ=1.526 σ=8.024
+tensor 0.015
+Epoch: 404, Training Loss: 0.1029, Validation Loss: 0.2061
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.217, 17.868] μ=1.439 σ=8.078
+tensor 0.021
+Epoch: 405, Training Loss: 0.1037, Validation Loss: 0.2105
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.138, 17.968] μ=1.445 σ=8.059
+tensor 0.020
+Epoch: 406, Training Loss: 0.1068, Validation Loss: 0.2079
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.152, 17.870] μ=1.433 σ=8.029
+tensor 0.020
+Epoch: 407, Training Loss: 0.1020, Validation Loss: 0.2120
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.383, 18.177] μ=1.471 σ=8.123
+tensor 0.011
+Epoch: 408, Training Loss: 0.1043, Validation Loss: 0.2051
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.451, 18.107] μ=1.445 σ=8.109
+tensor 0.025
+Epoch: 409, Training Loss: 0.1009, Validation Loss: 0.2135
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.514, 18.071] μ=1.395 σ=8.157
+tensor 0.008
+Epoch: 410, Training Loss: 0.1013, Validation Loss: 0.1914
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.351, 18.228] μ=1.523 σ=8.118
+tensor 0.023
+Epoch: 411, Training Loss: 0.1060, Validation Loss: 0.2037
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.480, 18.222] μ=1.415 σ=8.168
+tensor 0.007
+Epoch: 412, Training Loss: 0.1006, Validation Loss: 0.2035
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.413, 18.096] μ=1.432 σ=8.126
+tensor 0.010
+Epoch: 413, Training Loss: 0.1047, Validation Loss: 0.2134
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.421, 18.178] μ=1.470 σ=8.124
+tensor 0.017
+Epoch: 414, Training Loss: 0.0986, Validation Loss: 0.1986
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.689, 18.119] μ=1.414 σ=8.133
+tensor 0.017
+Epoch: 415, Training Loss: 0.1012, Validation Loss: 0.2129
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.489, 18.402] μ=1.561 σ=8.181
+tensor 0.011
+Epoch: 416, Training Loss: 0.0981, Validation Loss: 0.1945
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.713, 18.237] μ=1.403 σ=8.164
+tensor 0.016
+Epoch: 417, Training Loss: 0.1047, Validation Loss: 0.2045
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.656, 18.350] μ=1.438 σ=8.176
+tensor 0.010
+Epoch: 418, Training Loss: 0.0991, Validation Loss: 0.2097
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.389, 18.128] μ=1.417 σ=8.071
+tensor 0.016
+Epoch: 419, Training Loss: 0.0977, Validation Loss: 0.2192
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.663, 18.556] μ=1.558 σ=8.218
+tensor 0.014
+Epoch: 420, Training Loss: 0.1090, Validation Loss: 0.1982
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.547, 18.240] μ=1.459 σ=8.118
+tensor 0.007
+Epoch: 421, Training Loss: 0.1020, Validation Loss: 0.2060
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.743, 18.372] μ=1.417 σ=8.244
+tensor 0.005
+Epoch: 422, Training Loss: 0.0995, Validation Loss: 0.2042
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.792, 18.315] μ=1.450 σ=8.162
+tensor 0.017
+Epoch: 423, Training Loss: 0.1036, Validation Loss: 0.2072
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.490, 18.418] μ=1.542 σ=8.133
+tensor 0.020
+Epoch: 424, Training Loss: 0.1037, Validation Loss: 0.2103
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.757, 18.201] μ=1.448 σ=8.141
+tensor 0.029
+Epoch: 425, Training Loss: 0.1008, Validation Loss: 0.1941
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.860, 18.117] μ=1.311 σ=8.124
+tensor 0.007
+Epoch: 426, Training Loss: 0.0983, Validation Loss: 0.2041
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.605, 18.491] μ=1.504 σ=8.211
+tensor 0.016
+Epoch: 427, Training Loss: 0.1017, Validation Loss: 0.2075
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.621, 18.347] μ=1.526 σ=8.154
+tensor 0.011
+Epoch: 428, Training Loss: 0.0971, Validation Loss: 0.2162
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.990, 18.760] μ=1.511 σ=8.332
+tensor 0.012
+Epoch: 429, Training Loss: 0.1067, Validation Loss: 0.2104
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.942, 18.312] μ=1.326 σ=8.245
+tensor 0.010
+Epoch: 430, Training Loss: 0.1032, Validation Loss: 0.2122
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.833, 18.619] μ=1.602 σ=8.274
+tensor 0.033
+Epoch: 431, Training Loss: 0.1018, Validation Loss: 0.2119
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.900, 18.480] μ=1.418 σ=8.254
+tensor 0.010
+Epoch: 432, Training Loss: 0.0989, Validation Loss: 0.2090
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.738, 18.420] μ=1.498 σ=8.240
+tensor 0.023
+Epoch: 433, Training Loss: 0.1068, Validation Loss: 0.2048
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.026, 18.672] μ=1.520 σ=8.324
+tensor 0.008
+Epoch: 434, Training Loss: 0.1049, Validation Loss: 0.2059
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.892, 18.442] μ=1.390 σ=8.240
+tensor 0.014
+Epoch: 435, Training Loss: 0.1033, Validation Loss: 0.1986
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.958, 18.660] μ=1.528 σ=8.347
+tensor 0.012
+Epoch: 436, Training Loss: 0.1033, Validation Loss: 0.2069
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.812, 18.652] μ=1.497 σ=8.311
+tensor 0.008
+Epoch: 437, Training Loss: 0.1032, Validation Loss: 0.2053
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-15.620, 18.785] μ=1.550 σ=8.330
+tensor 0.007
+Epoch: 438, Training Loss: 0.1026, Validation Loss: 0.2031
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.033, 18.617] μ=1.500 σ=8.303
+tensor 0.035
+Epoch: 439, Training Loss: 0.0995, Validation Loss: 0.2186
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.220, 18.739] μ=1.485 σ=8.380
+tensor 0.032
+Epoch: 440, Training Loss: 0.1022, Validation Loss: 0.2037
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.225, 18.679] μ=1.466 σ=8.324
+tensor 0.021
+Epoch: 441, Training Loss: 0.1017, Validation Loss: 0.2183
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.368, 18.991] μ=1.596 σ=8.449
+tensor 0.024
+Epoch: 442, Training Loss: 0.1001, Validation Loss: 0.1984
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.303, 18.739] μ=1.469 σ=8.365
+tensor 0.019
+Epoch: 443, Training Loss: 0.1088, Validation Loss: 0.2113
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.554, 18.896] μ=1.459 σ=8.451
+tensor 0.013
+Epoch: 444, Training Loss: 0.1003, Validation Loss: 0.1907
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.291, 18.731] μ=1.553 σ=8.303
+tensor 0.028
+Epoch: 445, Training Loss: 0.1047, Validation Loss: 0.2051
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.615, 19.033] μ=1.505 σ=8.471
+tensor 0.014
+Epoch: 446, Training Loss: 0.0983, Validation Loss: 0.1991
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.875, 18.779] μ=1.377 σ=8.418
+tensor 0.009
+Epoch: 447, Training Loss: 0.1049, Validation Loss: 0.2152
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.417, 19.123] μ=1.630 σ=8.423
+tensor 0.023
+Epoch: 448, Training Loss: 0.1095, Validation Loss: 0.1921
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.695, 19.000] μ=1.521 σ=8.380
+tensor 0.018
+Epoch: 449, Training Loss: 0.0990, Validation Loss: 0.2225
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.758, 18.918] μ=1.436 σ=8.463
+tensor 0.009
+Epoch: 450, Training Loss: 0.1037, Validation Loss: 0.2057
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.497, 18.951] μ=1.518 σ=8.409
+tensor 0.008
+Epoch: 451, Training Loss: 0.1065, Validation Loss: 0.2046
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.725, 19.119] μ=1.499 σ=8.548
+tensor 0.014
+Epoch: 452, Training Loss: 0.1013, Validation Loss: 0.2036
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.425, 19.085] μ=1.523 σ=8.469
+tensor 0.010
+Epoch: 453, Training Loss: 0.1014, Validation Loss: 0.1954
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.645, 19.235] μ=1.548 σ=8.539
+tensor 0.006
+Epoch: 454, Training Loss: 0.1042, Validation Loss: 0.2039
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.456, 19.058] μ=1.528 σ=8.486
+tensor 0.017
+Epoch: 455, Training Loss: 0.0955, Validation Loss: 0.2324
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.470, 18.991] μ=1.464 σ=8.472
+tensor 0.018
+Epoch: 456, Training Loss: 0.0984, Validation Loss: 0.2063
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.642, 19.166] μ=1.511 σ=8.546
+tensor 0.015
+Epoch: 457, Training Loss: 0.1033, Validation Loss: 0.2087
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.621, 19.064] μ=1.485 σ=8.524
+tensor 0.032
+Epoch: 458, Training Loss: 0.1017, Validation Loss: 0.2135
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.650, 19.039] μ=1.552 σ=8.525
+tensor 0.005
+Epoch: 459, Training Loss: 0.0992, Validation Loss: 0.2049
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.901, 19.222] μ=1.568 σ=8.586
+tensor 0.013
+Epoch: 460, Training Loss: 0.0991, Validation Loss: 0.2102
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.852, 19.245] μ=1.496 σ=8.612
+tensor 0.014
+Epoch: 461, Training Loss: 0.1049, Validation Loss: 0.2017
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.960, 19.165] μ=1.463 σ=8.629
+tensor 0.006
+Epoch: 462, Training Loss: 0.1025, Validation Loss: 0.2000
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.572, 19.346] μ=1.600 σ=8.554
+tensor 0.019
+Epoch: 463, Training Loss: 0.1011, Validation Loss: 0.2044
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.761, 18.971] μ=1.443 σ=8.516
+tensor 0.012
+Epoch: 464, Training Loss: 0.1009, Validation Loss: 0.2100
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.823, 19.148] μ=1.540 σ=8.542
+tensor 0.012
+Epoch: 465, Training Loss: 0.1023, Validation Loss: 0.2138
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.862, 19.162] μ=1.506 σ=8.562
+tensor 0.020
+Epoch: 466, Training Loss: 0.0979, Validation Loss: 0.2085
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.053, 19.149] μ=1.509 σ=8.591
+tensor 0.013
+Epoch: 467, Training Loss: 0.1018, Validation Loss: 0.1933
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.829, 19.470] μ=1.593 σ=8.621
+tensor 0.013
+Epoch: 468, Training Loss: 0.0988, Validation Loss: 0.2072
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.944, 19.155] μ=1.442 σ=8.562
+tensor 0.019
+Epoch: 469, Training Loss: 0.1033, Validation Loss: 0.2170
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.888, 19.427] μ=1.604 σ=8.635
+tensor 0.013
+Epoch: 470, Training Loss: 0.0969, Validation Loss: 0.2151
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.815, 19.214] μ=1.524 σ=8.526
+tensor 0.011
+Epoch: 471, Training Loss: 0.1045, Validation Loss: 0.2058
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.924, 19.231] μ=1.459 σ=8.626
+tensor 0.013
+Epoch: 472, Training Loss: 0.0976, Validation Loss: 0.2113
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.706, 19.434] μ=1.611 σ=8.570
+tensor 0.010
+Epoch: 473, Training Loss: 0.0970, Validation Loss: 0.2103
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.974, 19.330] μ=1.514 σ=8.596
+tensor 0.031
+Epoch: 474, Training Loss: 0.1036, Validation Loss: 0.2014
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.160, 19.265] μ=1.466 σ=8.653
+tensor 0.012
+Epoch: 475, Training Loss: 0.0978, Validation Loss: 0.2114
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.986, 19.601] μ=1.629 σ=8.640
+tensor 0.018
+Epoch: 476, Training Loss: 0.0987, Validation Loss: 0.1965
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.412, 19.599] μ=1.530 σ=8.725
+tensor 0.007
+Epoch: 477, Training Loss: 0.0985, Validation Loss: 0.2135
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.113, 19.424] μ=1.524 σ=8.664
+tensor 0.019
+Epoch: 478, Training Loss: 0.0981, Validation Loss: 0.1981
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.322, 19.782] μ=1.586 σ=8.746
+tensor 0.011
+Epoch: 479, Training Loss: 0.0988, Validation Loss: 0.2063
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.149, 19.317] μ=1.478 σ=8.680
+tensor 0.020
+Epoch: 480, Training Loss: 0.0960, Validation Loss: 0.2053
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.892, 19.538] μ=1.615 σ=8.676
+tensor 0.014
+Epoch: 481, Training Loss: 0.0962, Validation Loss: 0.2067
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.448, 19.708] μ=1.563 σ=8.790
+tensor 0.020
+Epoch: 482, Training Loss: 0.0980, Validation Loss: 0.2023
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.107, 19.187] μ=1.512 σ=8.621
+tensor 0.007
+Epoch: 483, Training Loss: 0.0987, Validation Loss: 0.1943
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.219, 19.534] μ=1.630 σ=8.733
+tensor 0.015
+Epoch: 484, Training Loss: 0.1010, Validation Loss: 0.2099
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.396, 19.560] μ=1.615 σ=8.674
+tensor 0.011
+Epoch: 485, Training Loss: 0.1025, Validation Loss: 0.2034
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.368, 19.472] μ=1.510 σ=8.728
+tensor 0.013
+Epoch: 486, Training Loss: 0.0978, Validation Loss: 0.2002
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.379, 19.900] μ=1.633 σ=8.827
+tensor 0.010
+Epoch: 487, Training Loss: 0.0937, Validation Loss: 0.1967
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.495, 19.660] μ=1.510 σ=8.769
+tensor 0.016
+Epoch: 488, Training Loss: 0.0965, Validation Loss: 0.2135
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.399, 19.760] μ=1.548 σ=8.843
+tensor 0.024
+Epoch: 489, Training Loss: 0.0977, Validation Loss: 0.2155
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.275, 19.570] μ=1.573 σ=8.769
+tensor 0.016
+Epoch: 490, Training Loss: 0.0988, Validation Loss: 0.1950
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.697, 19.753] μ=1.565 σ=8.870
+tensor 0.035
+Epoch: 491, Training Loss: 0.0981, Validation Loss: 0.2138
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.461, 19.584] μ=1.571 σ=8.823
+tensor 0.016
+Epoch: 492, Training Loss: 0.0935, Validation Loss: 0.2061
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.688, 19.753] μ=1.600 σ=8.877
+tensor 0.011
+Epoch: 493, Training Loss: 0.1026, Validation Loss: 0.2208
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.778, 19.761] μ=1.520 σ=8.877
+tensor 0.041
+Epoch: 494, Training Loss: 0.0943, Validation Loss: 0.2014
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.386, 19.681] μ=1.592 σ=8.800
+tensor 0.010
+Epoch: 495, Training Loss: 0.1017, Validation Loss: 0.1948
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.520, 19.981] μ=1.630 σ=8.941
+tensor 0.027
+Epoch: 496, Training Loss: 0.1009, Validation Loss: 0.2086
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.312, 19.700] μ=1.432 σ=8.810
+tensor 0.041
+Epoch: 497, Training Loss: 0.0981, Validation Loss: 0.2137
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-16.995, 20.196] μ=1.745 σ=8.893
+tensor 0.018
+Epoch: 498, Training Loss: 0.0988, Validation Loss: 0.2005
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.381, 19.672] μ=1.476 σ=8.770
+tensor 0.009
+Epoch: 499, Training Loss: 0.0963, Validation Loss: 0.2155
+tensor[200, 4] n=800 (3.1Kb) x∈[-6.317, 7.573] μ=1.381 σ=3.276 grad CatBackward0
+tensor[200, 4] n=800 (3.1Kb) x∈[-17.655, 19.928] μ=1.559 σ=8.917
+tensor 0.016
+Epoch: 500, Training Loss: 0.0951, Validation Loss: 0.2085
+{"CKA": "Tensor", "CKA_arr": "list", "CKA_function": "function", "ConvAutoencoder": "type", "avg_train_loss": "float", "avg_val_loss": "float", "batch": "list", "config": "dict", "criterion": "MSELoss", "datasets": "module", "datetime": "type", "device": "device", "epoch": "int", "epochs": "int", "f": "TextIOWrapper", "full_testset": "MNIST", "full_trainset": "MNIST", "get_ipython": "function", "hilbert_vectors": "Tensor", "hilbert_vectors_model_1": "Tensor", "hilbert_vectors_model_2": "Tensor", "image": "Tensor", "images": "Tensor", "json": "module", "label": "Tensor", "loss": "Tensor", "lt": "module", "model": "ConvAutoencoder", "model2": "ConvAutoencoder", "n": "int", "optim": "module", "optimizer": "Adam", "os": "module", "output": "Tensor", "outputs": "Tensor", "plt": "module", "testloader": "DataLoader", "testset": "Subset", "torch": "module", "total_train_loss": "float", "total_val_loss": "float", "trainloader": "DataLoader", "trainset": "Subset", "transform": "Compose", "transforms": "module", "wandb": "module"}
+wandb: Network error (ConnectionError), entering retry loop.
+[34m[1mwandb[39m[22m: Network error resolved after 0:00:18.651667, resuming normal operation.
+{"CKA": "Tensor", "CKA_arr": "list", "CKA_function": "function", "ConvAutoencoder": "type", "avg_train_loss": "float", "avg_val_loss": "float", "batch": "list", "config": "dict", "criterion": "MSELoss", "datasets": "module", "datetime": "type", "device": "device", "epoch": "int", "epochs": "int", "f": "TextIOWrapper", "full_testset": "MNIST", "full_trainset": "MNIST", "get_ipython": "function", "hilbert_vectors": "Tensor", "hilbert_vectors_model_1": "Tensor", "hilbert_vectors_model_2": "Tensor", "image": "Tensor", "images": "Tensor", "json": "module", "label": "Tensor", "loss": "Tensor", "lt": "module", "model": "ConvAutoencoder", "model2": "ConvAutoencoder", "n": "int", "optim": "module", "optimizer": "Adam", "os": "module", "output": "Tensor", "outputs": "Tensor", "plt": "module", "testloader": "DataLoader", "testset": "Subset", "torch": "module", "total_train_loss": "float", "total_val_loss": "float", "trainloader": "DataLoader", "trainset": "Subset", "transform": "Compose", "transforms": "module", "wandb": "module"}

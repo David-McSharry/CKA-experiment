@@ -1,0 +1,40 @@
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Configure stats pid to 4640
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Loading settings from /Users/davidmcsharry/.config/wandb/settings
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Loading settings from /Users/davidmcsharry/dev/ML_experiments/wandb/settings
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-15 12:30:29,142 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'xx.py', 'program': '/Users/davidmcsharry/dev/ML_experiments/xx.py'}
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:_log_setup():507] Logging user logs to /Users/davidmcsharry/dev/ML_experiments/wandb/run-20230715_123029-20230715123027/logs/debug.log
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/davidmcsharry/dev/ML_experiments/wandb/run-20230715_123029-20230715123027/logs/debug-internal.log
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x147774880>
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:init():547] calling init triggers
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'project_name': 'CKA experiemnt', 'arch': {'conv_dim': 16, 'latent_dim': 4}, 'seed': 123, 'trainer': {'epochs': 100, 'save_dir': 'saved/', 'save_period': 10, 'verbosity': 2, 'monitor': 'val_loss', 'early_stop': 10, 'tensorboard': True}, 'data_loader': {'type': 'MnistDataLoader', 'args': {'data_dir': 'data/', 'batch_size': 256, 'shuffle': True, 'validation_split': 0.1, 'num_workers': 2}}, 'optimizer': {'type': 'Adam', 'args': {'lr': 0.001, 'weight_decay': 0, 'amsgrad': True}}, 'metrics': ['accuracy', 'top_k_acc'], 'run_id': '20230715123027'}
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:init():596] starting backend
+2023-07-15 12:30:29,143 INFO    MainThread:4640 [wandb_init.py:init():600] setting up manager
+2023-07-15 12:30:29,144 INFO    MainThread:4640 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-15 12:30:29,147 INFO    MainThread:4640 [wandb_init.py:init():606] backend started and connected
+2023-07-15 12:30:29,149 INFO    MainThread:4640 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-15 12:30:29,149 INFO    MainThread:4640 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-15 12:30:29,149 INFO    MainThread:4640 [wandb_init.py:init():705] updated telemetry
+2023-07-15 12:30:29,149 INFO    MainThread:4640 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-15 12:30:29,826 INFO    MainThread:4640 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-15 12:30:30,102 INFO    MainThread:4640 [wandb_run.py:_on_init():2182] got version response 
+2023-07-15 12:30:30,103 INFO    MainThread:4640 [wandb_init.py:init():789] starting run threads in backend
+2023-07-15 12:30:30,149 INFO    MainThread:4640 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-15 12:30:30,149 INFO    MainThread:4640 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-15 12:30:30,149 INFO    MainThread:4640 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-15 12:30:30,149 INFO    MainThread:4640 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-15 12:30:30,150 INFO    MainThread:4640 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-15 12:31:33,618 INFO    MainThread:4640 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-15 12:31:33,618 INFO    MainThread:4640 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-15 12:31:33,626 INFO    MainThread:4640 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-15 12:31:33,629 INFO    MainThread:4640 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-15 12:31:33,629 INFO    MainThread:4640 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-15 19:30:52,025 INFO    MainThread:4640 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-15 19:30:52,029 INFO    MainThread:4640 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-15 19:30:52,029 INFO    MainThread:4640 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-15 19:34:09,925 INFO    MainThread:4640 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-15 19:34:09,929 INFO    MainThread:4640 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-15 19:34:09,929 INFO    MainThread:4640 [wandb_init.py:_pause_backend():418] pausing backend
