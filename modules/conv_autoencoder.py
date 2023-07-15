@@ -44,3 +44,6 @@ class ConvAutoencoder(nn.Module):
             data = data.to(self.device)
             Hilbert_rep = torch.cat((Hilbert_rep, self.encoder(data)), 0)
         return Hilbert_rep
+
+    def get_Hilbert_rep_batch(self, batch):
+        return self.encoder(batch.to(self.device))

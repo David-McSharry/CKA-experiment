@@ -73,9 +73,18 @@ print(output.shape)
 
 # %% ---------------------------------------
 
-hilbert_vectors = model.get_Hilbert_rep(trainloader)
+# import time
+# hilbert_trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=100000)
 
-print(hilbert_vectors.shape)
+# start_time = time.time()
+
+# hilbert_vectors = model.get_Hilbert_rep(
+
+# end_time = time.time()
+
+# print("Execution time:", end_time - start_time, "seconds")
+
+# print(hilbert_vectors.shape)
 
 
 # %% ---------------------------------------
@@ -166,13 +175,14 @@ hilbert_vectors_model_1 = model.get_Hilbert_rep(trainloader)
 from metrics.CKA import CKA_function
 model2 = ConvAutoencoder(config)
 import torch.onnx
+import time
 # train another model with the same config and the same loop as above
 
 criterion = torch.nn.MSELoss()
 optimizer = optim.Adam(model2.parameters(), lr = 0.001)
 model2.to(device)
 
-epochs = 5
+epochs = 15
 
 config["run_id"] = datetime.now().strftime("%Y%m%d-%H%M%S")
 print(json.dumps(config, indent=4))
@@ -181,6 +191,8 @@ wandb.init(project="CKA-different-representations", config=config, id=config["ru
 
 
 CKA_arr = []
+
+epsilon =0.05
 
 for epoch in range(epochs):
 
@@ -194,7 +206,12 @@ for epoch in range(epochs):
 
             # Forward pass
             outputs = model2(images)
-            loss = criterion(outputs, images)
+
+            batch_hilbert_vectors_model_1 = model.get_Hilbert_rep_batch(images)
+            batch_hilbert_vectors_model_2 = model2.get_Hilbert_rep_batch(images)
+            CKA = CKA_function(batch_hilbert_vectors_model_1, batch_hilbert_vectors_model_2)
+
+            loss = criterion(outputs, images) + epsilon *  CKA
 
             # Backward pass and optimization
             optimizer.zero_grad()
@@ -238,9 +255,6 @@ for epoch in range(epochs):
 
         print(f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}")
 
-torch.onnx.export(model2, image, f"models/{config['run_id']}.onnx", verbose=True)
-wandb.save(f"models/{config['run_id']}.onnx")
-
 # kill wandb process
 wandb.finish()
 
@@ -252,7 +266,25 @@ plt.plot(CKA_arr)
 plt.show()
 
 
+# %%
 
+# test the model
+model2.eval()
+with torch.no_grad():
+    # get a random test image
+    iterator = iter(testloader)
+    next(iterator)
+    next(iterator)
+    image, label = next(iterator)
+    # send it to the device
+    image = image.to(device)
+    # send it to the model
+    output = model2(image)
+    # plot the original and reconstructed images
+    plt.imshow(image[0].cpu().numpy().squeeze(), cmap='gray_r')
+    plt.show()
+    plt.imshow(output[0].cpu().numpy().squeeze(), cmap='gray_r')
+    plt.show()
 
 # %%
 # mke tenaor of size latent_dim
