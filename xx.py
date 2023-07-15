@@ -13,20 +13,17 @@ from datetime import datetime
 
 # %% ---------------------------------------
 
+
 transform = transforms.Compose([transforms.ToTensor(), 
                                 transforms.Normalize((0.5,), (0.5,))])
 
-n = 200
-
-# Download and load the first 'n' training images
+# Download and load the full training images
 full_trainset = datasets.MNIST('./data/', download=True, train=True, transform=transform)
-trainset = torch.utils.data.Subset(full_trainset, range(n))
-trainloader = torch.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
+trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=64, shuffle=True)
 
-# Download and load the first 'n' test images
+# Download and load the full test images
 full_testset = datasets.MNIST('./data/', download=True, train=False, transform=transform)
-testset = torch.utils.data.Subset(full_testset, range(n))
-testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=True)
+testloader = torch.utils.data.DataLoader(full_testset, batch_size=64, shuffle=True)
 
 
 
@@ -42,6 +39,7 @@ plt.imshow(image[0].numpy().squeeze(), cmap='gray_r')
 
 
 
+
 # %% ---------------------------------------
 
 
@@ -51,7 +49,7 @@ with open("config.json", 'r') as f:
     config = json.load(f)
 
 
-
+print(json.dumps(config, indent=4, sort_keys=True))
 
 
 # %% ---------------------------------------
@@ -96,7 +94,7 @@ print(device)
 # Send model to device
 model.to(device)
 
-epochs = 50
+epochs = 5
 
 for epoch in range(epochs):
 
@@ -177,10 +175,9 @@ optimizer = optim.Adam(model2.parameters(), lr = 0.001)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model2.to(device)
 
-epochs = 500
+epochs = 5
 
-# update config with run_id
-config["run_id"] = datetime.now().strftime('%Y%m%d%H%M%S')
+config["run_id"] = 'test-1'
 print(json.dumps(config, indent=4))
 
 wandb.init(project="CKA-different-representations", config=config, id=config["run_id"])
@@ -244,6 +241,8 @@ for epoch in range(epochs):
 
         print(f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}")
 
+# kill wandb process
+wandb.finish()
 
 # %% 
 
@@ -251,11 +250,5 @@ for epoch in range(epochs):
 plt.plot(CKA_arr)
 plt.show()
 
- # %%
-
-
-
-
-# %%
 
 
