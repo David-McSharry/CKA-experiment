@@ -1,6 +1,6 @@
 # %% ---------------------------------------
 
-import torch 
+import torch
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 import lovely_tensors as lt
@@ -8,13 +8,15 @@ import wandb
 import json
 from datetime import datetime
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 
 
 
 # %% ---------------------------------------
 
 
-transform = transforms.Compose([transforms.ToTensor(), 
+transform = transforms.Compose([transforms.ToTensor(),
                                 transforms.Normalize((0.5,), (0.5,))])
 
 # Download and load the full training images
@@ -36,7 +38,6 @@ lt.monkey_patch()
 
 image, label = next(iter(trainloader))
 plt.imshow(image[0].numpy().squeeze(), cmap='gray_r')
-
 
 
 
@@ -67,9 +68,6 @@ print(output.shape)
 
 # %% ---------------------------------------
 
-from modules.conv_autoencoder import ConvAutoencoder
-
-model = ConvAutoencoder(config)
 hilbert_vectors = model.get_Hilbert_rep(trainloader)
 
 print(hilbert_vectors.shape)
@@ -86,9 +84,6 @@ criterion = torch.nn.MSELoss()
 # Optimizer
 optimizer = optim.Adam(model.parameters(), lr = 0.001)
 
-# Set device
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-print(device)
 
 
 # Send model to device
@@ -146,17 +141,19 @@ for epoch in range(epochs):
 # %%
 
 
-# test the model 
+# test the model
 model.eval()
 with torch.no_grad():
     # get a random test image
     image, label = next(iter(testloader))
+    # send it to the device
+    image = image.to(device)
     # send it to the model
     output = model(image)
     # plot the original and reconstructed images
-    plt.imshow(image[0].numpy().squeeze(), cmap='gray_r')
+    plt.imshow(image[0].cpu().numpy().squeeze(), cmap='gray_r')
     plt.show()
-    plt.imshow(output[0].numpy().squeeze(), cmap='gray_r')
+    plt.imshow(output[0].cpu().numpy().squeeze(), cmap='gray_r')
     plt.show()
 
 hilbert_vectors_model_1 = model.get_Hilbert_rep(trainloader)
@@ -172,7 +169,6 @@ model2 = ConvAutoencoder(config)
 
 criterion = torch.nn.MSELoss()
 optimizer = optim.Adam(model2.parameters(), lr = 0.001)
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 model2.to(device)
 
 epochs = 5
@@ -186,40 +182,40 @@ wandb.init(project="CKA-different-representations", config=config, id=config["ru
 CKA_arr = []
 
 for epoch in range(epochs):
-    
+
         # Training
         model2.train()
         total_train_loss = 0
-    
+
         for batch in trainloader:
             images, _ = batch
             images = images.to(device)
-    
+
             # Forward pass
             outputs = model2(images)
             loss = criterion(outputs, images)
-    
+
             # Backward pass and optimization
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
-    
+
             total_train_loss += loss.item()
-    
+
         avg_train_loss = total_train_loss / len(trainloader)
-    
+
         # Validation
         model2.eval()
         total_val_loss = 0
-    
+
         with torch.no_grad():
             for batch in testloader:
                 images, _ = batch
                 images = images.to(device)
-    
+
                 outputs = model2(images)
                 loss = criterion(outputs, images)
-    
+
                 total_val_loss += loss.item()
 
             hilbert_vectors_model_2 = model2.get_Hilbert_rep(trainloader)
@@ -234,7 +230,7 @@ for epoch in range(epochs):
             wandb.log({"Validation Loss": avg_val_loss})
 
 
-    
+
         avg_val_loss = total_val_loss / len(testloader)
 
         # get hilbert vectors of the training set
@@ -244,7 +240,7 @@ for epoch in range(epochs):
 # kill wandb process
 wandb.finish()
 
-# %% 
+# %%
 
 #plot the CKA values
 plt.plot(CKA_arr)

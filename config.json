@@ -2,7 +2,7 @@
     "project_name": "CKA experiemnt",
     "arch": {
         "conv_dim": 16,
-        "latent_dim": 12
+        "latent_dim": 4
     },
     "seed": 123,
     "trainer": {
