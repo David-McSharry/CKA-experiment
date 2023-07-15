@@ -21,11 +21,11 @@ transform = transforms.Compose([transforms.ToTensor(),
 
 # Download and load the full training images
 full_trainset = datasets.MNIST('./data/', download=True, train=True, transform=transform)
-trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=64, shuffle=True)
+trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=64)
 
 # Download and load the full test images
 full_testset = datasets.MNIST('./data/', download=True, train=False, transform=transform)
-testloader = torch.utils.data.DataLoader(full_testset, batch_size=64, shuffle=True)
+testloader = torch.utils.data.DataLoader(full_testset, batch_size=64)
 
 
 
@@ -173,7 +173,7 @@ model2.to(device)
 
 epochs = 5
 
-config["run_id"] = 'test-1'
+config["run_id"] = datetime.now().strftime("%Y%m%d-%H%M%S")
 print(json.dumps(config, indent=4))
 
 wandb.init(project="CKA-different-representations", config=config, id=config["run_id"])
@@ -243,8 +243,21 @@ wandb.finish()
 # %%
 
 #plot the CKA values
+CKA_arr = [x.cpu().numpy() for x in CKA_arr]
 plt.plot(CKA_arr)
 plt.show()
 
 
 
+
+# %%
+# mke tenaor of size latent_dim
+
+vec = torch.tensor([[1.0, 3.0, 3.0, 4.0, 4.0, 8.0, 3.0, 4.0, 1.0, 3.3, 1.0, 2.0]]).to(device)
+
+with torch.no_grad():
+    output = model.decoder(vec)
+
+# visualize the output
+plt.imshow(output.cpu().numpy().squeeze(), cmap='gray_r')
+# %%
