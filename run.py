@@ -1,288 +1,221 @@
-# %% ---------------------------------------
+# %%
 
-import torch
-from torchvision import datasets, transforms
-import matplotlib.pyplot as plt
-import lovely_tensors as lt
-import wandb
 import json
 from datetime import datetime
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+import lovely_tensors as lt
+import matplotlib.pyplot as plt
+import torch
+import wandb
+from torchvision import datasets, transforms
+from utils.utils import display_encoded_samples
+from modules.conv_autoencoder import ConvAutoencoder
+from train.trainers import train_model_A
+from metrics.CKA import CKA_function
 
+device = torch.device("cuda")
 
-# %% ---------------------------------------
+lt.monkey_patch()
 
+with open("config.json", "r") as f:
+    config = json.load(f)
 
 transform = transforms.Compose(
     [transforms.ToTensor(), transforms.Normalize((0.5,), (0.5,))]
 )
 
 # Download and load the full training images
-full_trainset = datasets.MNIST(
-    "./data/", download=True, train=True, transform=transform
+trainset = datasets.MNIST("./data/", download=True, train=True, transform=transform)
+trainloader = torch.utils.data.DataLoader(
+    trainset, batch_size=config["batch_size"], num_workers=config["num_workers"]
 )
-trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=64)
 
 a1_trainset, a2_trainset = torch.utils.data.random_split(
-    full_trainset, [len(full_trainset) // 2, len(full_trainset) // 2]
+    trainset, [len(trainset) // 2, len(trainset) // 2]
 )
-a1_trainloader = torch.utils.data.DataLoader(a1_trainset, batch_size=64)
-a2_trainloader = torch.utils.data.DataLoader(a2_trainset, batch_size=64)
+a1_trainloader = torch.utils.data.DataLoader(
+    a1_trainset, batch_size=config["batch_size"]
+)
+a2_trainloader = torch.utils.data.DataLoader(
+    a2_trainset, batch_size=config["batch_size"]
+)
 
 # Download and load the full test images
-full_testset = datasets.MNIST(
-    "./data/", download=True, train=False, transform=transform
-)
-testloader = torch.utils.data.DataLoader(full_testset, batch_size=64)
+testset = datasets.MNIST("./data/", download=True, train=False, transform=transform)
+testloader = torch.utils.data.DataLoader(testset, batch_size=config["batch_size"])
 
 
-# %% ---------------------------------------
-
-
-lt.monkey_patch()
-
-image, label = next(iter(trainloader))
-plt.imshow(image[0].numpy().squeeze(), cmap="gray_r")
-
-
-# %% ---------------------------------------
-
-
-# load in config.json
-with open("config.json", "r") as f:
-    config = json.load(f)
-
-
-print(json.dumps(config, indent=4, sort_keys=True))
-
-
-# %% ---------------------------------------
-
-
-from modules.conv_autoencoder import ConvAutoencoder
-
-
-model = ConvAutoencoder(config)
-# do a forward pass on a single image
-output = model(image)
-
-print(output.shape)
-
-
-# %% ---------------------------------------
-
-# import time
-# hilbert_trainloader = torch.utils.data.DataLoader(full_trainset, batch_size=100000)
-
-# start_time = time.time()
-
-# hilbert_vectors = model.get_Hilbert_rep(
-
-# end_time = time.time()
-
-# print("Execution time:", end_time - start_time, "seconds")
-
-# print(hilbert_vectors.shape)
-
-
-# %% ---------------------------------------
-
-
-import torch.optim as optim
-
-epochs = 5
-# Loss function
-criterion = torch.nn.MSELoss()
-
-# Optimizer
-optimizer = optim.Adam(model.parameters(), lr=0.001)
-
-
-# Send model to device
-model.to(device)
-
-for epoch in range(epochs):
-    # Training
-    model.train()
-    total_train_loss = 0
-
-    for batch in a1_trainloader:
-        images, _ = batch
-        images = images.to(device)
-
-        # Forward pass
-        outputs = model(images)
-        loss = criterion(outputs, images)
-
-        # Backward pass and optimization
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        total_train_loss += loss.item()
-
-    avg_train_loss = total_train_loss / len(a1_trainloader)
-
-    # Validation
-    model.eval()
-    total_val_loss = 0
-
-    with torch.no_grad():
-        for batch in testloader:
-            images, _ = batch
-            images = images.to(device)
-
-            outputs = model(images)
-            loss = criterion(outputs, images)
-
-            total_val_loss += loss.item()
-
-    avg_val_loss = total_val_loss / len(testloader)
-
-    print(
-        f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}"
-    )
+# plot the first 5 images to make sure
 
 
 # %%
 
 
-# test the model
-model.eval()
-with torch.no_grad():
-    # get a random test image
-    image, label = next(iter(testloader))
-    # send it to the device
-    image = image.to(device)
-    # send it to the model
-    output = model(image)
-    # plot the original and reconstructed images
-    plt.imshow(image[0].cpu().numpy().squeeze(), cmap="gray_r")
-    plt.show()
-    plt.imshow(output[0].cpu().numpy().squeeze(), cmap="gray_r")
-    plt.show()
+images, labels = next(iter(trainloader))
 
-hilbert_vectors_model_1 = model.get_Hilbert_rep(trainloader)
+fig, axs = plt.subplots(
+    nrows=1, ncols=5, figsize=(10, 2)
+)  # Create subplots for 5 images
+for i in range(5):  # Repeat for each of the first 5 images
+    axs[i].imshow(
+        images[i].numpy().squeeze(), cmap="gray_r"
+    )  # Plot each image on a separate subplot
+    axs[i].axis("off")  # Remove axes for cleaner look
 
+plt.show()  # Display all 5 images
+
+
+# %%
+import torch.optim as optim
+
+model_a1 = train_model_A(a1_trainloader, testloader)
+
+# %%
+
+import time
+
+model = ConvAutoencoder(config)
+
+# # Let's compare get_latent_hilbert_rep vs get_full_Hilbert_rep
+
+# for batch in a1_trainloader:
+#     images, _ = batch
+#     images = images.to(device)
+
+#     start_time = time.time()
+#     rep_1 = model.get_latent_Hilbert_rep_batch(images)
+#     rep_2 = model.get_latent_Hilbert_rep_batch(images)
+#     # size:
+#     print(rep_1.shape)
+#     cka = CKA_function(rep_1, rep_2)
+#     end_time = time.time()
+#     print("get_latent_Hilbert_rep_batch: ", end_time - start_time)
+
+#     start_time = time.time()
+#     rep_1 = model.get_full_Hilbert_rep_batch(images)
+#     rep_2 = model.get_full_Hilbert_rep_batch(images)
+#     # size:
+#     print(rep_1.shape)
+#     cka = CKA_function(rep_1, rep_2)
+#     end_time = time.time()
+#     print("get_full_Hilbert_rep_batch: ", end_time - start_time)
+#     break
+
+# Results:
+# get_latent_Hilbert_rep_batch:  0.0013217926025390625
+# get_full_Hilbert_rep_batch:  0.00799107551574707
+
+
+# %%
+
+display_encoded_samples(model_a1, testset)
 
 # %%
 
 # import CKA
-from metrics.CKA import CKA_function
 
-model2 = ConvAutoencoder(config)
 import torch.onnx
-import time
-
-# train another model with the same config and the same loop as above
-
-criterion = torch.nn.MSELoss()
-optimizer = optim.Adam(model2.parameters(), lr=0.001)
-model2.to(device)
-
-epochs = 15
-
-config["run_id"] = datetime.now().strftime("%Y%m%d-%H%M%S")
-print(json.dumps(config, indent=4))
-
-wandb.init(project="CKA-different-representations", config=config, id=config["run_id"])
 
 
-CKA_arr = []
+def train_unsimilar_model(base_model, epsilon, epochs):
+    model = ConvAutoencoder(config)
+    criterion = torch.nn.MSELoss()
+    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    model.to(device)
 
-epsilon = 0.05
+    hilbert_vectors_model_1 = base_model.get_full_Hilbert_rep(trainloader)
 
-for epoch in range(epochs):
-    # Training
-    model2.train()
-    total_train_loss = 0
+    run_id = "ModelB_" + datetime.now().strftime("%Y%m%d-%H%M%S")
 
-    for batch in a2_trainloader:
-        images, _ = batch
-        images = images.to(device)
+    wandb.init(project="CKA-different-representations", config=config, id=run_id)
+    wandb.watch(model, log="all")
 
-        # Forward pass
-        outputs = model2(images)
+    # mark this as a model B
 
-        batch_hilbert_vectors_model_1 = model.get_Hilbert_rep_batch(images)
-        batch_hilbert_vectors_model_2 = model2.get_Hilbert_rep_batch(images)
-        CKA = CKA_function(batch_hilbert_vectors_model_1, batch_hilbert_vectors_model_2)
+    for _ in range(epochs):
+        # Training
+        model.train()
+        total_train_loss = 0
 
-        loss = criterion(outputs, images) + epsilon * CKA
-
-        # Backward pass and optimization
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        total_train_loss += loss.item()
-
-    avg_train_loss = total_train_loss / len(a2_trainloader)
-
-    # Validation
-    model2.eval()
-    total_val_loss = 0
-
-    with torch.no_grad():
-        for batch in testloader:
+        for batch in a2_trainloader:
             images, _ = batch
             images = images.to(device)
 
-            outputs = model2(images)
-            loss = criterion(outputs, images)
+            # Forward pass
+            outputs = model(images)
 
-            total_val_loss += loss.item()
+            batch_hilbert_vectors_model_1 = base_model.get_full_Hilbert_rep_batch(
+                images
+            )
+            batch_hilbert_vectors_model_2 = model.get_full_Hilbert_rep_batch(images)
+            CKA = CKA_function(
+                batch_hilbert_vectors_model_1, batch_hilbert_vectors_model_2
+            )
 
-        hilbert_vectors_model_2 = model2.get_Hilbert_rep(trainloader)
-        print(hilbert_vectors_model_1)
-        print(hilbert_vectors_model_2)
-        CKA = CKA_function(hilbert_vectors_model_1, hilbert_vectors_model_2)
-        print(CKA)
-        CKA_arr.append(CKA)
+            loss = criterion(outputs, images) + epsilon * CKA
 
-        wandb.log({"CKA": CKA})
-        wandb.log({"Training Loss": avg_train_loss})
-        wandb.log({"Validation Loss": avg_val_loss})
+            # Backward pass and optimization
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
 
-    avg_val_loss = total_val_loss / len(testloader)
+            total_train_loss += loss.item()
 
-    # get hilbert vectors of the training set
+        avg_train_loss = total_train_loss / len(a2_trainloader)
 
-    print(
-        f"Epoch: {epoch + 1}, Training Loss: {avg_train_loss:.4f}, Validation Loss: {avg_val_loss:.4f}"
-    )
+        # Validation
+        model.eval()
+        total_val_loss = 0
 
-# kill wandb process
-wandb.finish()
+        with torch.no_grad():
+            for batch in testloader:
+                images, _ = batch
+                images = images.to(device)
+
+                outputs = model(images)
+                loss = criterion(outputs, images)
+
+                total_val_loss += loss.item()
+
+            hilbert_vectors_model_2 = model.get_full_Hilbert_rep(trainloader)
+            CKA = CKA_function(hilbert_vectors_model_1, hilbert_vectors_model_2)
+
+            wandb.log({"CKA": CKA})
+            wandb.log(
+                {
+                    "train_loss": avg_train_loss,
+                    "val_loss": total_val_loss / len(testloader),
+                }
+            )
+
+    # kill wandb process
+    wandb.finish()
+
+    return model
+
 
 # %%
 
-# plot the CKA values
-CKA_arr = [x.cpu().numpy() for x in CKA_arr]
-plt.plot(CKA_arr)
-plt.show()
-
+epsilon = 0.05
+epochs = 15
+model_b1 = train_unsimilar_model(model_a1, epsilon, epochs)
 
 # %%
 
+model_b2 = train_unsimilar_model(model_a1, epsilon, epochs)
+
+# %%
+# Are model_b1 and model_b2 similar?
+
+hilbert_vectors_model_b1 = model_b1.get_latent_Hilbert_rep(trainloader)
+hilbert_vectors_model_b2 = model_b2.get_latent_Hilbert_rep(trainloader)
+print(CKA_function(hilbert_vectors_model_b1, hilbert_vectors_model_b2))
+
+
+# %%
 # test the model
-model2.eval()
-with torch.no_grad():
-    # get a random test image
-    iterator = iter(testloader)
-    next(iterator)
-    next(iterator)
-    image, label = next(iterator)
-    # send it to the device
-    image = image.to(device)
-    # send it to the model
-    output = model2(image)
-    # plot the original and reconstructed images
-    plt.imshow(image[0].cpu().numpy().squeeze(), cmap="gray_r")
-    plt.show()
-    plt.imshow(output[0].cpu().numpy().squeeze(), cmap="gray_r")
-    plt.show()
+
+display_encoded_samples(model_b1, testset)
 
 # %%
 # mke tenaor of size latent_dim
@@ -292,7 +225,7 @@ vec = torch.tensor([[1.0, 3.0, 3.0, 4.0, 4.0, 8.0, 3.0, 4.0, 1.0, 3.3, 1.0, 2.0]
 )
 
 with torch.no_grad():
-    output = model.decoder(vec)
+    output = model_a1.decoder(vec)
 
 # visualize the output
 plt.imshow(output.cpu().numpy().squeeze(), cmap="gray_r")
