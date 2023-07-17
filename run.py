@@ -26,6 +26,12 @@ transform = transforms.Compose(
 
 # Download and load the full training images
 trainset = datasets.MNIST("./data/", download=True, train=True, transform=transform)
+
+# Halve the dataset to fit memory constraints.
+trainset, _ = torch.utils.data.random_split(
+    trainset, [len(trainset) // 2, len(trainset) // 2]
+)
+
 trainloader = torch.utils.data.DataLoader(
     trainset, batch_size=config["batch_size"], num_workers=config["num_workers"]
 )
@@ -75,9 +81,9 @@ model_a1 = train_model_A(a1_trainloader, testloader)
 
 display_encoded_samples(model_a1, testset)
 
-# %%
+# %%md
+# # Model B
 
-# import CKA
 
 import torch.onnx
 
@@ -116,6 +122,9 @@ def train_unsimilar_model(base_model, epsilon, epochs):
             CKA = CKA_function(
                 batch_hilbert_vectors_model_1, batch_hilbert_vectors_model_2
             )
+
+            del batch_hilbert_vectors_model_1
+            del batch_hilbert_vectors_model_2
 
             loss = criterion(outputs, images) + epsilon * CKA
 
@@ -160,14 +169,6 @@ def train_unsimilar_model(base_model, epsilon, epochs):
 
 
 # %%
-# instantiat a conv autoencoder
-tests_model = ConvAutoencoder(config)
-
-tests_model.get_full_Hilbert_rep_batch(next(iter(trainloader))[0])
-# tests_model.get_full_Hilbert_rep(trainloader)
-
-# %%
-
 epsilon = 0.05
 epochs = 15
 model_b1 = train_unsimilar_model(model_a1, epsilon, epochs)
