@@ -70,41 +70,6 @@ import torch.optim as optim
 
 model_a1 = train_model_A(a1_trainloader, testloader)
 
-# %%
-
-import time
-
-model = ConvAutoencoder(config)
-
-# # Let's compare get_latent_hilbert_rep vs get_full_Hilbert_rep
-
-# for batch in a1_trainloader:
-#     images, _ = batch
-#     images = images.to(device)
-
-#     start_time = time.time()
-#     rep_1 = model.get_latent_Hilbert_rep_batch(images)
-#     rep_2 = model.get_latent_Hilbert_rep_batch(images)
-#     # size:
-#     print(rep_1.shape)
-#     cka = CKA_function(rep_1, rep_2)
-#     end_time = time.time()
-#     print("get_latent_Hilbert_rep_batch: ", end_time - start_time)
-
-#     start_time = time.time()
-#     rep_1 = model.get_full_Hilbert_rep_batch(images)
-#     rep_2 = model.get_full_Hilbert_rep_batch(images)
-#     # size:
-#     print(rep_1.shape)
-#     cka = CKA_function(rep_1, rep_2)
-#     end_time = time.time()
-#     print("get_full_Hilbert_rep_batch: ", end_time - start_time)
-#     break
-
-# Results:
-# get_latent_Hilbert_rep_batch:  0.0013217926025390625
-# get_full_Hilbert_rep_batch:  0.00799107551574707
-
 
 # %%
 
@@ -193,6 +158,13 @@ def train_unsimilar_model(base_model, epsilon, epochs):
 
     return model
 
+
+# %%
+# instantiat a conv autoencoder
+tests_model = ConvAutoencoder(config)
+
+tests_model.get_full_Hilbert_rep_batch(next(iter(trainloader))[0])
+# tests_model.get_full_Hilbert_rep(trainloader)
 
 # %%
 

@@ -65,20 +65,27 @@ class ConvAutoencoder(nn.Module):
 
     def get_full_Hilbert_rep_batch(self, batch):
         activations = []
+        batch = batch.to(self.device)
         for layer in self.encoder:
             batch = layer(batch)
+            print(batch.size())
             activations.append(batch.view(batch.size(0), -1))
-        for layer in self.decoder:
+
+        # Skip the last layer of the decoder (the output layer)
+        for layer in self.decoder[:-1]:
             batch = layer(batch)
+            print(batch.size())
             activations.append(batch.view(batch.size(0), -1))
         return torch.cat(activations, dim=1)
 
     def get_full_Hilbert_rep(self, dataloader):
-        # for each batch, get the encoded representation and concatenate into one tensor of shape (N, latent_dim)
+        # for each batch, get the full Hilbert representation and concatenate into one tensor of shape (N, ?)
         # where N is the total number of images in the dataset
-        Hilbert_rep = torch.empty(0, self.latent_dim).to(self.device)
+        full_Hilbert_rep = torch.empty(
+            0, self.get_full_Hilbert_rep_batch(next(iter(dataloader))).size(1)
+        ).to(self.device)
         for batch_idx, (data, target) in enumerate(dataloader):
-            Hilbert_rep = torch.cat(
-                (Hilbert_rep, self.get_full_Hilbert_rep_batch(data)), 0
+            full_Hilbert_rep = torch.cat(
+                (full_Hilbert_rep, self.get_full_Hilbert_rep_batch(data)), 0
             )
-        return Hilbert_rep
+        return full_Hilbert_rep
