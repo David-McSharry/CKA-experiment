@@ -30,26 +30,11 @@ trainloader = torch.utils.data.DataLoader(
     trainset, batch_size=config["batch_size"], num_workers=config["num_workers"]
 )
 
-a1_trainset, a2_trainset = torch.utils.data.random_split(
-    trainset, [len(trainset) // 2, len(trainset) // 2]
-)
-a1_trainloader = torch.utils.data.DataLoader(
-    a1_trainset, batch_size=config["batch_size"]
-)
-a2_trainloader = torch.utils.data.DataLoader(
-    a2_trainset, batch_size=config["batch_size"]
-)
-
-# Download and load the full test images
-testset = datasets.MNIST("./data/", download=True, train=False, transform=transform)
-testloader = torch.utils.data.DataLoader(testset, batch_size=config["batch_size"])
-
-
-# %%
-# instantiat a conv autoencoder
 tests_model = ConvAutoencoder(config)
 
-tests_model.get_full_Hilbert_rep_batch(next(iter(trainloader))[0])
+# tests_model.get_full_Hilbert_rep_batch(next(iter(trainloader))[0])
+with torch.no_grad():
+    x = tests_model.get_full_Hilbert_rep(trainloader)
 # tests_model.get_full_Hilbert_rep(trainloader)
 
 # %%
