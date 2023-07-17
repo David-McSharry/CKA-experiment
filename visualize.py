@@ -56,7 +56,8 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=config["batch_size"
 
 loaded = torch.load("model_a1.pth")
 model_a1 = ConvAutoencoder(config)
-model_a1.load_state_dict(loaded["model_state_dict"])
+model_a1.load_state_dict(loaded)
+
 
 # %% [markdown]
 # # Visualize features
