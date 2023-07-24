@@ -85,7 +85,10 @@ display_encoded_samples(model_a1, testset)
 # %%md
 # # Model B
 
-def train_unsimilar_model(base_model, config, trainloader_unsimilar_model, track_CKA=False):
+
+def train_unsimilar_model(
+    base_model, config, trainloader_unsimilar_model, track_CKA=False
+):
     model = ConvAutoencoder(config)
     criterion = torch.nn.MSELoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
@@ -103,6 +106,7 @@ def train_unsimilar_model(base_model, config, trainloader_unsimilar_model, track
     for _ in range(config["epochs"]):
         # Training
         model.train()
+
         total_train_loss = 0
 
         for batch in trainloader_unsimilar_model:
@@ -123,14 +127,17 @@ def train_unsimilar_model(base_model, config, trainloader_unsimilar_model, track
             del batch_hilbert_vectors_model_1
             del batch_hilbert_vectors_model_2
 
-            loss = criterion(outputs, images) + config['CKA_loss_weight'] * CKA
+            main_loss = criterion(outputs, images)
+            cka_loss = config["CKA_loss_weight"] * CKA
+
+            loss = main_loss + cka_loss
 
             # Backward pass and optimization
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
 
-            total_train_loss += loss.item()
+            total_train_loss += main_loss.item()
 
         avg_train_loss = total_train_loss / len(trainloader_unsimilar_model)
 
@@ -171,22 +178,15 @@ def train_unsimilar_model(base_model, config, trainloader_unsimilar_model, track
 # %%
 
 # load model_a1.pt
-model_a1 = ConvAutoencoder(config)
-model_a1.load_state_dict(torch.load("model_a1.pt"))
-model_b5 = train_unsimilar_model(model_a1, config, trainloader, track_CKA=True)
+# model_a1 = ConvAutoencoder(config)
+# model_a1.load_state_dict(torch.load("model_a1.pt"))
+model_b5 = train_unsimilar_model(model_a1, config, trainloader, track_CKA=False)
 
 
 # %%
 
 # save model 2
 torch.save(model_b5.state_dict(), "model_b5.pt")
-
-
-
-
-
-
-
 
 
 # %%
@@ -216,12 +216,12 @@ with torch.no_grad():
 plt.imshow(output.cpu().numpy().squeeze(), cmap="gray_r")
 # %%
 
-model_nums = [1,2,3,4]
+model_nums = [1, 2, 3, 4]
 
 # for each pair of models, bet the CKA between them
 import numpy as np
 
-grid = np.zeros((4,4))
+grid = np.zeros((4, 4))
 
 with torch.no_grad():
     for model_num_1 in model_nums:
@@ -234,13 +234,14 @@ with torch.no_grad():
                 hilbert_vectors_model_1 = model_1.get_latent_Hilbert_rep(a1_trainloader)
                 hilbert_vectors_model_2 = model_2.get_latent_Hilbert_rep(a1_trainloader)
                 CKA = CKA_function(hilbert_vectors_model_1, hilbert_vectors_model_2)
-                print(f"CKA between model_b{model_num_1} and model_b{model_num_2}: {CKA}")
-                grid[model_num_1-1, model_num_2-1] = CKA
+                print(
+                    f"CKA between model_b{model_num_1} and model_b{model_num_2}: {CKA}"
+                )
+                grid[model_num_1 - 1, model_num_2 - 1] = CKA
                 del model_1
                 del model_2
                 del hilbert_vectors_model_1
                 del hilbert_vectors_model_2
-
 
 
 # %%
@@ -257,15 +258,14 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(grid, vmin=0, vmax=1, annot=True, cmap="YlGnBu")
 
 # Add labels
-plt.xlabel('Models')
-plt.ylabel('Models')
+plt.xlabel("Models")
+plt.ylabel("Models")
 
-# Add title 
-plt.title('CKA between models')
+# Add title
+plt.title("CKA between models")
 
 # Show plot
 plt.show()
-
 
 
 # %%
