@@ -8,7 +8,7 @@ import json
 DEVICE = torch.device("cuda")
 
 
-def train_model_A(trainloader, testloader, epochs=None):
+def train_model_A(trainloader, testloader, epochs=None, model=None, variant_name="A"):
     """
     Trains a model with the architecture of Model A
     :param trainloader: the training data
@@ -24,8 +24,11 @@ def train_model_A(trainloader, testloader, epochs=None):
         config["epochs"] = epochs
 
     print(config)
-    run_id = "ModelA_" + datetime.now().strftime("%Y%m%d-%H%M%S")
-    model = ConvAutoencoder(config)
+    run_id = "Model_" + variant_name + "_" + datetime.now().strftime("%Y%m%d-%H%M%S")
+
+    if model is None:
+        model = ConvAutoencoder(config)
+
     wandb.init(project="CKA-different-representations", config=config, id=run_id)
     wandb.watch(model, log="all")
     criterion = torch.nn.MSELoss()

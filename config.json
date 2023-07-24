@@ -1,8 +1,6 @@
 {
     "epochs": 10,
     "CKA_loss_weight": 0.05,
-
-
     "project_name": "CKA experiemnt",
     "arch": {
         "conv_dim": 16,
