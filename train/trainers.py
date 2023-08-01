@@ -5,7 +5,7 @@ from datetime import datetime
 from modules.conv_autoencoder import ConvAutoencoder
 import json
 
-DEVICE = torch.device("cuda")
+DEVICE = torch.device("cuda:0")
 
 
 def train_model_A(trainloader, testloader, epochs=None, model=None, variant_name="A"):
@@ -32,14 +32,11 @@ def train_model_A(trainloader, testloader, epochs=None, model=None, variant_name
     wandb.init(project="CKA-different-representations", config=config, id=run_id)
     wandb.watch(model, log="all")
     criterion = torch.nn.MSELoss()
-    # Hard coding device is dodgy but will work for now
-    device = torch.device("cuda")
-
     # Optimizer
     optimizer = optim.Adam(model.parameters(), lr=config["optimizer"]["lr"])
 
     # Send model to device
-    model.to(device)
+    model.to(DEVICE)
 
     for epoch in range(config["epochs"]):
         # Training
@@ -48,7 +45,7 @@ def train_model_A(trainloader, testloader, epochs=None, model=None, variant_name
 
         for batch in trainloader:
             images, _ = batch
-            images = images.to(device)
+            images = images.to(DEVICE)
 
             # Forward pass
             outputs = model(images)
@@ -70,7 +67,7 @@ def train_model_A(trainloader, testloader, epochs=None, model=None, variant_name
         with torch.no_grad():
             for batch in testloader:
                 images, _ = batch
-                images = images.to(device)
+                images = images.to(DEVICE)
 
                 outputs = model(images)
                 loss = criterion(outputs, images)
@@ -102,7 +99,7 @@ def train_unsimilar_model(base_model, epsilon, epochs=None):
     model = ConvAutoencoder(config)
     criterion = torch.nn.MSELoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
-    model.to(device)
+    model.to(DEVICE)
 
     hilbert_vectors_model_1 = base_model.get_full_Hilbert_rep(trainloader)
 
@@ -120,7 +117,7 @@ def train_unsimilar_model(base_model, epsilon, epochs=None):
 
         for batch in a2_trainloader:
             images, _ = batch
-            images = images.to(device)
+            images = images.to(DEVICE)
 
             # Forward pass
             outputs = model(images)
@@ -151,7 +148,7 @@ def train_unsimilar_model(base_model, epsilon, epochs=None):
         with torch.no_grad():
             for batch in testloader:
                 images, _ = batch
-                images = images.to(device)
+                images = images.to(DEVICE)
 
                 outputs = model(images)
                 loss = criterion(outputs, images)
